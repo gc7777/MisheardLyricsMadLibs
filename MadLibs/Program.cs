@@ -16,9 +16,11 @@ namespace MadLibs
                 Console.WriteLine("Pick a category:");
                 Console.WriteLine("1. Romance");
                 Console.WriteLine("2. Action");
+                Console.ReadKey();
             } else if (response == "N" || response == "n")
             {
-                Console.WriteLine("No problem. Here's how you play:");
+                Console.WriteLine("No problem. Here's how you play: " + Definitions.instructions);
+                Console.ReadLine();
             } else
             {
                 Console.WriteLine("Please select either Y for yes or N for no");
