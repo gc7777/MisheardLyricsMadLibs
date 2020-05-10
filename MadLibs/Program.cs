@@ -92,6 +92,13 @@ namespace MadLibs
 
             void PlayMotivation()
             {
+                Motivation m = new Motivation();
+                Console.WriteLine("You picked 'Not just any motivational YouTube Ad'");
+                Console.WriteLine("Pick a washed up celebrity");
+                m.celeb = Console.ReadLine();
+
+                Console.WriteLine("Pick a dollar amount");
+                m.number = Console.ReadLine();
 
             }
         }
