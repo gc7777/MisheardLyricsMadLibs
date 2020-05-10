@@ -100,6 +100,77 @@ namespace MadLibs
                 Console.WriteLine("Pick a dollar amount");
                 m.number = Console.ReadLine();
 
+                Console.WriteLine("Pick a famous talk show host");
+                m.talkhost = Console.ReadLine();
+
+                Console.WriteLine("Pick a car brand");
+                m.carBrand = Console.ReadLine();
+
+                Console.WriteLine("Pick a number");
+                m.number = Console.ReadLine();
+
+                Console.WriteLine("Pick another car brand");
+                m.carBrand2 = Console.ReadLine();
+
+                Console.WriteLine("Pick a place");
+                m.nounPlace = Console.ReadLine();
+
+                Console.WriteLine("Pick a person");
+                m.nounPerson = Console.ReadLine();
+
+                Console.WriteLine("Pick a clothing brand");
+                m.clothingBrand = Console.ReadLine();
+
+                Console.WriteLine("Pick a cheap beverage");
+                m.cheapBeverage = Console.ReadLine();
+
+                Console.WriteLine($"Pick a plural noun ({Definitions.noun})");
+                m.pluralNoun = Console.ReadLine();
+
+                Console.WriteLine("Pick a number");
+                m.number3 = Console.ReadLine();
+
+                Console.WriteLine($"Pick another plural noun ({Definitions.noun})");
+                m.pluralNoun2 = Console.ReadLine();
+
+                Console.WriteLine("Pick a percentage eg. 50");
+                m.percentage = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Pick a website");
+                m.website = Console.ReadLine();
+
+                Console.WriteLine("Pick a whole dollar amount (leave out the $ sign) eg. 500");
+                m.amount = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Pick a city");
+                m.city = Console.ReadLine();
+
+                Console.WriteLine($"Pick another plural noun ({Definitions.noun})");
+                m.pluralNoun3 = Console.ReadLine();
+
+                Console.WriteLine("Pick a number");
+                m.percentage2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Pick a verb ending in -ing eg. 'running'");
+                m.verbING = Console.ReadLine();
+
+                Console.WriteLine($"Pick a noun ({Definitions.noun})");
+                m.noun = Console.ReadLine();
+
+                Console.WriteLine("Pick a beverage");
+                m.beverage = Console.ReadLine();
+
+                Console.WriteLine($"Pick another noun ({Definitions.noun})");
+                m.noun2 = Console.ReadLine();
+
+                Console.WriteLine($"Pick a verb ({Definitions.verb})");
+                m.verb = Console.ReadLine();
+
+                Console.WriteLine($"Pick an adverb ({Definitions.adverb})");
+                m.adverb = Console.ReadLine();
+
+                Console.WriteLine("Last one! Pick a number");
+                m.number4 = Console.ReadLine();
             }
         }
     }
