@@ -38,6 +38,7 @@ namespace MadLibs
                 Console.WriteLine("Pick a story:");
                 Console.WriteLine("1. Row Row Row Your ______");
                 Console.WriteLine("2. I wanna know what ______ is.");
+                Console.WriteLine("3. Not just any motivational YouTube Ad");
                 int storyChoice = Convert.ToInt32(Console.ReadLine());
                 if (storyChoice == 1)
                 {
@@ -46,6 +47,10 @@ namespace MadLibs
                 else if (storyChoice == 2)
                 {
                     PlayForeigner();
+                }
+                else if(storyChoice == 3)
+                {
+                    PlayMotivation();
                 }
                 else
                 {
@@ -83,6 +88,11 @@ namespace MadLibs
             void PlayForeigner()
             {
                 Console.WriteLine("You picked 'I wanna know what  ______ is.");
+            }
+
+            void PlayMotivation()
+            {
+
             }
         }
     }
