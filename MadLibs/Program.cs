@@ -54,7 +54,7 @@ namespace MadLibs
                 }
                 else
                 {
-                    Console.WriteLine("Sorry that choice is invalid. Please choose 1 or 2");
+                    Console.WriteLine("Sorry that choice is invalid. Please choose 1, 2, or 3.");
                     PickCategory();
                 }
             }
