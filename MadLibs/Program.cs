@@ -88,8 +88,9 @@ namespace MadLibs
             {
                 Console.WriteLine("Bohemian Rhapsody: Misheard Lyrics Edition");
 
-                Console.WriteLine("Is this the real life? \n " +
-                    "Is this just fantasy ? \n " +
+                Console.WriteLine(
+                    "Is this the real life? \n " +
+                    "Is this just fantasy? \n " +
                     "Caught in a landslide, \n" +
                     "No escape from reality. \n" +
                     "  \n" +
@@ -104,8 +105,63 @@ namespace MadLibs
                     "Put a gun against his head, \n" +
                     "Pulled my trigger, now he's dead.\n" +
                     "Mama, life had just begun,\n" +
-                    "But now I've gone and thrown it all away.\n"
+                    "But now I've gone and thrown it all away.\n" +
+                    "  \n" +
+                    "Mama, ooh, \n" +
+                    "Didn't mean to make you cry,\n" +
+                    "If I'm not back again this time tomorrow,\n" +
+                    "Carry on, carry on as if nothing really matters.\n" +
+                    "  \n" +
+                    "Too late, my time has come,\n" +
+                    "Sends shivers down my spine,\n"+
+                    "Body's aching all the time.\n"+
+                    "Goodbye, everybody, I've got to go\n"+
+                    "Gotta leave you all behind and face the truth.\n"+
+                    "  \n" +
+                    "Mama, ooh(Any way the wind blows), \n" +
+                    "I don't want to die, \n" +
+                    "I sometimes wish I'd never been born at all.\n"+
+                    "  \n" +
+                    "I see a little silhouetto of a man,\n" +
+                    "Scaramouche, Scaramouche, will you do the Fandango?\n" +
+                    "Thunderbolt and lightning very, very frightening me.\n" +
+                    "(Galileo) Galileo.\n" +
+                    "(Galileo) Galileo,\n" +
+                    "Galileo Figaro\n" +
+                    "Magnifico - o - o - o - o.\n" +
+                    "  \n" +
+                    "I'm just a poor boy, nobody loves me.\n" +
+                    "He's just a poor boy from a poor family,\n" +
+                    "Spare him his life from this monstrosity.\n"+
+                    "  \n" +
+                    "come, easy go, will you let me go ?\n" +
+                    "Bismillah! No, we will not let you go. (Let him go!)\n" +
+                    "Bismillah! We will not let you go. (Let him go!)\n" +
+                    "Bismillah! We will not let you go. (Let me go!)\n" +
+                    "Will not let you go. (Let me go!)\n" +
+                    "Never let you go(Never, never, never, never let me go)\n" +
+                    "Oh oh oh oh\n" +
+                    "No, no, no, no, no, no, no\n" +
+                    "Oh, mama mia, mama mia(Mama mia, let me go.)\n" +
+                    "Beelzebub has a devil put aside for me, for me, for me.\n" +
+                    "  \n" +
+                    "So you think you can stone me and spit in my eye ?\n" +
+                    "So you think you can love me and leave me to die ?\n" +
+                    "Oh, baby, can't do this to me, baby,\n" +
+                    "Just gotta get out, just gotta get right outta here.\n" +
+                    "  \n" +
+                    "(Ooooh, ooh yeah, ooh yeah)\n" +
+                    "  \n" +
+                    "Nothing really matters,\n" +
+                    "Anyone can see,\n" +
+                    "Nothing really matters,\n" +
+                    "Nothing really matters to me.\n" +
+                    "  \n" +
+                    "Any way the wind blows..."
                     );
+
+                //Console.Write("Hit enter to keep reading");
+                
             }
 
             void PlayMotivation()
