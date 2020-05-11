@@ -4,7 +4,8 @@ using System.Text;
 
 namespace MadLibs
 {
-    class Love
+    class Bohemian
     {
+
     }
 }

@@ -37,7 +37,7 @@ namespace MadLibs
                 Console.WriteLine("Alright, let's play!");
                 Console.WriteLine("Pick a story:");
                 Console.WriteLine("1. Row Row Row Your ______");
-                Console.WriteLine("2. I wanna know what ______ is.");
+                Console.WriteLine("2. Bohemian Rhapsody: Misheard Lyrics Edition");
                 Console.WriteLine("3. Not just any motivational YouTube Ad");
                 int storyChoice = Convert.ToInt32(Console.ReadLine());
                 if (storyChoice == 1)
@@ -46,7 +46,7 @@ namespace MadLibs
                 }
                 else if (storyChoice == 2)
                 {
-                    PlayForeigner();
+                    PlayQueen();
                 }
                 else if(storyChoice == 3)
                 {
@@ -85,9 +85,11 @@ namespace MadLibs
                 Console.WriteLine($"Row, row, row your {myRowStory.boatNoun} gently down the {myRowStory.streamNoun}. {myRowStory.merrilyAdverb}, merrily, {myRowStory.merrily2}, {myRowStory.merrily3} life is but a {myRowStory.dreamNoun}.");
             }
 
-            void PlayForeigner()
+            void PlayQueen()
             {
-                Console.WriteLine("You picked 'I wanna know what  ______ is.");
+                Console.WriteLine("Bohemian Rhapsody: Misheard Lyrics Edition");
+
+                Console.WriteLine("");
             }
 
             void PlayMotivation()
