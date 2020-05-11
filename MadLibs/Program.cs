@@ -110,17 +110,17 @@ namespace MadLibs
                     "  \n" +
                     "Mama, ooh, \n" +
                     "Didn't mean to make you cry,\n" +
-                    "If I'm not back again this time tomorrow,\n" +
-                    "Carry on, carry on as if nothing really matters.\n" +
+                    $"If I'm not back again this time {b.tomorrowDate},\n" +
+                    $"{b.carryOnSaying}, {b.carryOnSaying} as if nothing really matters.\n" +
                     "  \n" +
-                    "Too late, my time has come,\n" +
-                    "Sends shivers down my spine,\n"+
+                    $"Too late, my {b.timeModeTransport} has come,\n" +
+                    $"Sends {b.shiversPluralNoun} down my spine,\n"+
                     "Body's aching all the time.\n"+
                     "Goodbye, everybody, I've got to go\n"+
                     "Gotta leave you all behind and face the truth.\n"+
                     "  \n" +
-                    "Mama, ooh(Any way the wind blows), \n" +
-                    "I don't want to die, \n" +
+                    $"Mama, ooh(Any way the wind {b.blowsVerb}), \n" +
+                    $"I don't want to {b.dieVerb}, \n" +
                     "I sometimes wish I'd never been born at all.\n"+
                     "  \n" +
                     "I see a little silhouetto of a man,\n" +
@@ -158,7 +158,7 @@ namespace MadLibs
                     "Nothing really matters,\n" +
                     "Nothing really matters to me.\n" +
                     "  \n" +
-                    "Any way the wind blows..."
+                    $"Any way the wind {b.blowsVerb}..."
                     );
 
                 //Console.Write("Hit enter to keep reading");

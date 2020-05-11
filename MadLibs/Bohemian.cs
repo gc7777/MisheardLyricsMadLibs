@@ -6,16 +6,22 @@ namespace MadLibs
 {
     class Bohemian
     {
-        public string lifeNoun = "life";
-        public string naturalDisaster = "landslide";
-        public string cartoonCharacter = "reality";
-        public string runVerb = "see";
-        public string boyNoun = "boy";
-        public string blowsVerb = "blows";
-        public string personName = "me";
-        public string manNoun = "man";
-        public string headBodyPart = "head";
-        public string deadWord = "dead";
-        public string thrownVerb = "thrown";
+        public string 
+            lifeNoun = "life",
+            naturalDisaster = "landslide",
+            cartoonCharacter = "reality",
+            runVerb = "see",
+            boyNoun = "boy",
+            blowsVerb = "blows",
+            personName = "me",
+            manNoun = "man",
+            headBodyPart = "head",
+            deadWord = "dead",
+            thrownVerb = "thrown",
+            tomorrowDate = "tomorrow",
+            carryOnSaying = "carry on", //old motto "keep on truckin"
+            timeModeTransport = "time", // transport like bus
+            shiversPluralNoun = "",
+            dieVerb = "die";
     }
 }
