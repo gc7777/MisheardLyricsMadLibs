@@ -13,7 +13,7 @@ namespace MadLibs
         public static string verb = "An action. eg. sleep, run, eat.";
         public static string adverb = "How you do an action. Usually ends in 'ly' eg. swiftly, happily, covertly.";
         public static string properNoun = "A noun that identifies a single entity, like London, Microsoft, or Christine.";
-
+        public static string exclamation = "Something you shout, when you're excited or have figured something out.";
     }
     
     

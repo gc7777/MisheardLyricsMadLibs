@@ -22,6 +22,7 @@ namespace MadLibs
         public string country       = "";
         public int percentage       = 0;
         public string website       = "";
+        public string exclamation   = "";
         public int amount           = 0;
         public string city          = "";
         public string pluralNoun3   = "";
