@@ -86,26 +86,27 @@ namespace MadLibs
 
             void PlayQueen()
             {
-                Console.WriteLine("Bohemian Rhapsody: Misheard Lyrics Edition");
+                Bohemian b = new Bohemian();
+                Console.WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition");
 
                 Console.WriteLine(
-                    "Is this the real life? \n " +
+                    $"Is this the real {b.lifeNoun}? \n " +
                     "Is this just fantasy? \n " +
-                    "Caught in a landslide, \n" +
-                    "No escape from reality. \n" +
+                    $"Caught in a {b.naturalDisaster}, \n" +
+                    $"No escape from {b.cartoonCharacter}. \n" +
                     "  \n" +
                     "Open your eyes \n" +
-                    "Look up to the skies and see, \n" + 
-                    "I'm just a poor boy, I need no sympathy, \n" +
+                    $"Look up to the skies and {b.runVerb}, \n" + 
+                    $"I'm just a poor {b.boyNoun}, I need no sympathy, \n" +
                     "Because I'm easy come, easy go,\n" +
                     "Little high, little low,\n" +
-                    "ny way the wind blows doesn't really matter to me, to me.\n" +
+                    $"any way the wind {b.blowsVerb} doesn't really matter to {b.personName}, to {b.personName}.\n" +
                     "  \n" +
-                    "Mama, just killed a man, \n" +
-                    "Put a gun against his head, \n" +
-                    "Pulled my trigger, now he's dead.\n" +
+                    $"Mama, just killed a {b.manNoun}, \n" +
+                    $"Put a gun against his {b.headBodyPart}, \n" +
+                    $"Pulled my trigger, now he's {b.deadWord}.\n" +
                     "Mama, life had just begun,\n" +
-                    "But now I've gone and thrown it all away.\n" +
+                    $"But now I've gone and {b.thrownVerb} it all away.\n" +
                     "  \n" +
                     "Mama, ooh, \n" +
                     "Didn't mean to make you cry,\n" +
