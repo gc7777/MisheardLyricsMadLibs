@@ -90,8 +90,8 @@ namespace MadLibs
                 Console.WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition");
 
                 Console.WriteLine(
-                    $"Is this the real {b.lifeNoun}? \n " +
-                    "Is this just fantasy? \n " +
+                    $"Is this the real {b.lifeNoun}? \n" +
+                    "Is this just fantasy? \n" +
                     $"Caught in a {b.naturalDisaster}, \n" +
                     $"No escape from {b.cartoonCharacter}. \n" +
                     "  \n" +
