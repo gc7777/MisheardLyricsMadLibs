@@ -7,22 +7,23 @@ namespace MadLibs
     public class Motivation
     {
         public string celeb         = "";
-        public string number        = "";
+        public int number           = 0;
         public string talkhost      = "";
         public string carModel      = "";
-        public string number2       = "";
+        public int number2          = 0;
         public string carBrand      = "";
         public string nounPlace     = "";
         public string nounPerson    = "";
         public string clothingBrand = "";
         public string cheapBeverage = "";
         public string pluralNoun    = "";
-        public string number3       = "";
+        public int number3          = 0;
         public string pluralNoun2   = "";
         public string country       = "";
         public int percentage       = 0;
         public string website       = "";
         public string exclamation   = "";
+        public string feeling       = "";
         public int amount           = 0;
         public string city          = "";
         public string pluralNoun3   = "";
@@ -33,7 +34,7 @@ namespace MadLibs
         public string place         = "";
         public string verb          = "";
         public string adverb        = "";
-        public string number4       = "";
-        public string number5       = "";
+        public int number4          = 0;
+        public int number5          = 0;
     }
 }
