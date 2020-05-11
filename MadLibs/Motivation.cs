@@ -9,9 +9,9 @@ namespace MadLibs
         public string celeb         = "";
         public string number        = "";
         public string talkhost      = "";
-        public string carBrand      = "";
+        public string carModel      = "";
         public string number2       = "";
-        public string carBrand2     = "";
+        public string carBrand      = "";
         public string nounPlace     = "";
         public string nounPerson    = "";
         public string clothingBrand = "";
@@ -29,9 +29,10 @@ namespace MadLibs
         public string verbING       = "";
         public string noun          = "";
         public string beverage      = "";
-        public string noun2         = "";
+        public string place         = "";
         public string verb          = "";
         public string adverb        = "";
         public string number4       = "";
+        public string number5       = "";
     }
 }
