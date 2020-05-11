@@ -81,7 +81,6 @@ namespace MadLibs
                 Console.WriteLine("Pick a noun finally");
                 myRowStory.dreamNoun = Console.ReadLine();
 
-                //ReadRow();
                 Console.WriteLine($"Row, row, row your {myRowStory.boatNoun} gently down the {myRowStory.streamNoun}. {myRowStory.merrilyAdverb}, merrily, {myRowStory.merrily2}, {myRowStory.merrily3} life is but a {myRowStory.dreamNoun}.");
             }
 
@@ -89,7 +88,24 @@ namespace MadLibs
             {
                 Console.WriteLine("Bohemian Rhapsody: Misheard Lyrics Edition");
 
-                Console.WriteLine("");
+                Console.WriteLine("Is this the real life? \n " +
+                    "Is this just fantasy ? \n " +
+                    "Caught in a landslide, \n" +
+                    "No escape from reality. \n" +
+                    "  \n" +
+                    "Open your eyes \n" +
+                    "Look up to the skies and see, \n" + 
+                    "I'm just a poor boy, I need no sympathy, \n" +
+                    "Because I'm easy come, easy go,\n" +
+                    "Little high, little low,\n" +
+                    "ny way the wind blows doesn't really matter to me, to me.\n" +
+                    "  \n" +
+                    "Mama, just killed a man, \n" +
+                    "Put a gun against his head, \n" +
+                    "Pulled my trigger, now he's dead.\n" +
+                    "Mama, life had just begun,\n" +
+                    "But now I've gone and thrown it all away.\n"
+                    );
             }
 
             void PlayMotivation()
