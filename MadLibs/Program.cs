@@ -87,7 +87,92 @@ namespace MadLibs
             void PlayQueen()
             {
                 Bohemian b = new Bohemian();
-                Console.WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition");
+                Console.WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition (28 words)");
+                Console.WriteLine("*****************************************************************");
+                Console.WriteLine($"Pick a noun ({Definitions.noun})");
+                b.lifeNoun = Console.ReadLine();
+
+                Console.WriteLine("Pick a natural disaster eg. flood");
+                b.naturalDisaster = Console.ReadLine();
+
+                Console.WriteLine("Pick a cartoon character");
+                b.cartoonCharacter = Console.ReadLine();
+
+                Console.WriteLine($"Pick a verb in present tense ({Definitions.verb})");
+                b.runVerb = Console.ReadLine();
+
+                Console.WriteLine($"Pick a noun ({Definitions.noun})");
+                b.boyNoun = Console.ReadLine();
+
+                Console.WriteLine($"Pick a verb in present tense({Definitions.verb})");
+                b.blowsVerb = Console.ReadLine();
+
+                Console.WriteLine("Pick a person's name");
+                b.personName = Console.ReadLine();
+
+                Console.WriteLine($"Pick a noun ({Definitions.noun})");
+                b.manNoun = Console.ReadLine();
+
+                Console.WriteLine("Pick a part of the body");
+                b.headBodyPart = Console.ReadLine();
+
+                Console.WriteLine($"Pick an adjective ({Definitions.adjective})");
+                b.deadWord = Console.ReadLine();
+
+                Console.WriteLine($"Pick a past tense verb ({Definitions.verb})");
+                b.thrownVerb = Console.ReadLine();
+
+                Console.WriteLine("Pick a point in time or a date");
+                b.tomorrowDate = Console.ReadLine();
+
+                Console.WriteLine("Pick an outdated saying, eg. 'Keep on Truckin''");
+                b.carryOnSaying = Console.ReadLine();
+
+                Console.WriteLine("Pick a mode of transport");
+                b.timeModeTransport = Console.ReadLine();
+
+                Console.WriteLine("Pick an emotion eg. sadness");
+                b.shiversPluralNoun = Console.ReadLine();
+
+                Console.WriteLine($"Pick a present tense verb ({Definitions.verb})");
+                b.dieVerb = Console.ReadLine();
+
+                Console.WriteLine($"Pick a singular noun ({Definitions.noun})");
+                b.silhouettoNoun = Console.ReadLine();
+
+                Console.WriteLine("Pick a famous gangster name");
+                b.scaramoucheFamousGangster = Console.ReadLine();
+
+                Console.WriteLine("Pick a style of dance");
+                b.fandangoDanceMove = Console.ReadLine();
+
+                Console.WriteLine($"Pick an adjective ({Definitions.adjective})");
+                b.frighteningAdjective = Console.ReadLine();
+
+                Console.WriteLine("Pick a famous person");
+                b.galileoFamousPerson = Console.ReadLine();
+
+                Console.WriteLine("Pick an exclamation eg. 'Holy Moly!' or 'Needs more cowbell!'");
+                b.magnificoExcitedRemark = Console.ReadLine();
+
+                Console.WriteLine("Pick a famous British person");
+                b.bismillahFamousBritishPerson = Console.ReadLine();
+
+                Console.WriteLine("Choose a pet's name");
+                b.beezlebubPetName = Console.ReadLine();
+
+                Console.WriteLine($"Pick a verb in present tense ({Definitions.verb})");
+                b.stoneVerb = Console.ReadLine();
+
+                Console.WriteLine("Pick a body part");
+                b.eyeBodyPart = Console.ReadLine();
+
+                Console.WriteLine($"Almost done! Pick a verb ({Definitions.verb})");
+                b.loveVerb = Console.ReadLine();
+
+                Console.WriteLine($"Last one! Pick a noun ({Definitions.noun})");
+                b.nothingNoun = Console.ReadLine();
+
 
                 Console.WriteLine(
                     $"Is this the real {b.lifeNoun}? \n" +
@@ -124,8 +209,8 @@ namespace MadLibs
                     "I sometimes wish I'd never been born at all.\n"+
                     "  \n" +
                     $"I see a little {b.silhouettoNoun} of a man,\n" +
-                    $"{b.ScaramoucheFamousGangster}, {b.ScaramoucheFamousGangster}, will you do the {b.fandangoDanceMove}?\n" +
-                    $"Thunderbolt and lightning very, very {b.frighteningVerb} me.\n" +
+                    $"{b.scaramoucheFamousGangster}, {b.scaramoucheFamousGangster}, will you do the {b.fandangoDanceMove}?\n" +
+                    $"Thunderbolt and lightning very, very {b.frighteningAdjective} me.\n" +
                     $"({b.galileoFamousPerson}) {b.galileoFamousPerson}.\n" +
                     $"({b.galileoFamousPerson}) {b.galileoFamousPerson},\n" +
                     $"{b.galileoFamousPerson} Figaro\n" +

@@ -21,12 +21,12 @@ namespace MadLibs
             tomorrowDate = "tomorrow",
             carryOnSaying = "carry on", //old motto "keep on truckin"
             timeModeTransport = "time", // transport like bus
-            shiversPluralNoun = "",
+            shiversPluralNoun = "shivers",
             dieVerb = "die",
             silhouettoNoun = "silhouetto",
-            ScaramoucheFamousGangster = "scaramouche",
+            scaramoucheFamousGangster = "scaramouche",
             fandangoDanceMove = "fandango",
-            frighteningVerb = "frightening",
+            frighteningAdjective = "frightening",
             galileoFamousPerson = "galileo",
             magnificoExcitedRemark = "magnifico",
             bismillahFamousBritishPerson = "Bismillah",
