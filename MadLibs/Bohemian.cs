@@ -22,6 +22,8 @@ namespace MadLibs
             carryOnSaying = "carry on", //old motto "keep on truckin"
             timeModeTransport = "time", // transport like bus
             shiversPluralNoun = "shivers",
+            achingVerb = "aching",
+            truthBoss = "truth",
             dieVerb = "die",
             silhouettoNoun = "silhouetto",
             scaramoucheFamousGangster = "scaramouche",
@@ -29,7 +31,9 @@ namespace MadLibs
             frighteningAdjective = "frightening",
             galileoFamousPerson = "galileo",
             magnificoExcitedRemark = "magnifico",
+            lifePossession = "life",
             bismillahFamousBritishPerson = "Bismillah",
+            noAnimalSound = "no",
             beezlebubPetName = "Beezelbub",
             stoneVerb = "stone",
             eyeBodyPart = "eye",
