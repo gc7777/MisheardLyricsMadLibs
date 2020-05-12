@@ -6,7 +6,7 @@ namespace MadLibs
 {
     class Bohemian
     {
-        public string 
+        public string
             lifeNoun = "life",
             naturalDisaster = "landslide",
             cartoonCharacter = "reality",
@@ -22,6 +22,18 @@ namespace MadLibs
             carryOnSaying = "carry on", //old motto "keep on truckin"
             timeModeTransport = "time", // transport like bus
             shiversPluralNoun = "",
-            dieVerb = "die";
+            dieVerb = "die",
+            silhouettoNoun = "silhouetto",
+            ScaramoucheFamousGangster = "scaramouche",
+            fandangoDanceMove = "fandango",
+            frighteningVerb = "frightening",
+            galileoFamousPerson = "galileo",
+            magnificoExcitedRemark = "magnifico",
+            bismillahFamousBritishPerson = "Bismillah",
+            beezlebubPetName = "Beezelbub",
+            stoneVerb = "stone",
+            eyeBodyPart = "eye",
+            loveVerb = "love",
+            nothingNoun = "nothing"; // user's sentimental item
     }
 }

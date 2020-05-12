@@ -123,40 +123,40 @@ namespace MadLibs
                     $"I don't want to {b.dieVerb}, \n" +
                     "I sometimes wish I'd never been born at all.\n"+
                     "  \n" +
-                    "I see a little silhouetto of a man,\n" +
-                    "Scaramouche, Scaramouche, will you do the Fandango?\n" +
-                    "Thunderbolt and lightning very, very frightening me.\n" +
-                    "(Galileo) Galileo.\n" +
-                    "(Galileo) Galileo,\n" +
-                    "Galileo Figaro\n" +
-                    "Magnifico - o - o - o - o.\n" +
+                    $"I see a little {b.silhouettoNoun} of a man,\n" +
+                    $"{b.ScaramoucheFamousGangster}, {b.ScaramoucheFamousGangster}, will you do the {b.fandangoDanceMove}?\n" +
+                    $"Thunderbolt and lightning very, very {b.frighteningVerb} me.\n" +
+                    $"({b.galileoFamousPerson}) {b.galileoFamousPerson}.\n" +
+                    $"({b.galileoFamousPerson}) {b.galileoFamousPerson},\n" +
+                    $"{b.galileoFamousPerson} Figaro\n" +
+                    $"{b.magnificoExcitedRemark} - o - o - o - o.\n" +
                     "  \n" +
-                    "I'm just a poor boy, nobody loves me.\n" +
-                    "He's just a poor boy from a poor family,\n" +
+                    $"I'm just a poor {b.boyNoun}, nobody loves me.\n" +
+                    $"He's just a poor {b.boyNoun} from a poor family,\n" +
                     "Spare him his life from this monstrosity.\n"+
                     "  \n" +
-                    "come, easy go, will you let me go ?\n" +
-                    "Bismillah! No, we will not let you go. (Let him go!)\n" +
-                    "Bismillah! We will not let you go. (Let him go!)\n" +
-                    "Bismillah! We will not let you go. (Let me go!)\n" +
+                    "easy come, easy go, will you let me go ?\n" +
+                    $"{b.bismillahFamousBritishPerson}! No, we will not let you go. (Let him go!)\n" +
+                    $"{b.bismillahFamousBritishPerson}! We will not let you go. (Let him go!)\n" +
+                    $"{b.bismillahFamousBritishPerson}! We will not let you go. (Let me go!)\n" +
                     "Will not let you go. (Let me go!)\n" +
                     "Never let you go(Never, never, never, never let me go)\n" +
                     "Oh oh oh oh\n" +
                     "No, no, no, no, no, no, no\n" +
                     "Oh, mama mia, mama mia(Mama mia, let me go.)\n" +
-                    "Beelzebub has a devil put aside for me, for me, for me.\n" +
+                    $"{b.beezlebubPetName} has a devil put aside for me, for me, for me.\n" +
                     "  \n" +
-                    "So you think you can stone me and spit in my eye ?\n" +
-                    "So you think you can love me and leave me to die ?\n" +
+                    $"So you think you can {b.stoneVerb} me and spit in my {b.eyeBodyPart}?\n" +
+                    $"So you think you can {b.loveVerb} me and leave me to {b.dieVerb} ?\n" +
                     "Oh, baby, can't do this to me, baby,\n" +
                     "Just gotta get out, just gotta get right outta here.\n" +
                     "  \n" +
                     "(Ooooh, ooh yeah, ooh yeah)\n" +
                     "  \n" +
-                    "Nothing really matters,\n" +
+                    $"{b.nothingNoun} really matters,\n" +
                     "Anyone can see,\n" +
-                    "Nothing really matters,\n" +
-                    "Nothing really matters to me.\n" +
+                    $"{b.nothingNoun} really matters,\n" +
+                    $"{b.nothingNoun} really matters to me.\n" +
                     "  \n" +
                     $"Any way the wind {b.blowsVerb}..."
                     );
