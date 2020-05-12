@@ -37,7 +37,7 @@ namespace MadLibs
                 Console.WriteLine("Alright, let's play!");
                 Console.WriteLine("Pick a story:");
                 Console.WriteLine("1. Row Row Row Your ______");
-                Console.WriteLine("2. I wanna know what ______ is.");
+                Console.WriteLine("2. Bohemian Rhapsody: Misheard Lyrics Edition");
                 Console.WriteLine("3. Not just any motivational YouTube Ad");
                 int storyChoice = Convert.ToInt32(Console.ReadLine());
                 if (storyChoice == 1)
@@ -46,7 +46,7 @@ namespace MadLibs
                 }
                 else if (storyChoice == 2)
                 {
-                    PlayForeigner();
+                    PlayQueen();
                 }
                 else if(storyChoice == 3)
                 {
@@ -81,13 +81,88 @@ namespace MadLibs
                 Console.WriteLine("Pick a noun finally");
                 myRowStory.dreamNoun = Console.ReadLine();
 
-                //ReadRow();
                 Console.WriteLine($"Row, row, row your {myRowStory.boatNoun} gently down the {myRowStory.streamNoun}. {myRowStory.merrilyAdverb}, merrily, {myRowStory.merrily2}, {myRowStory.merrily3} life is but a {myRowStory.dreamNoun}.");
             }
 
-            void PlayForeigner()
+            void PlayQueen()
             {
-                Console.WriteLine("You picked 'I wanna know what  ______ is.");
+                Bohemian b = new Bohemian();
+                Console.WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition");
+
+                Console.WriteLine(
+                    $"Is this the real {b.lifeNoun}? \n" +
+                    "Is this just fantasy? \n" +
+                    $"Caught in a {b.naturalDisaster}, \n" +
+                    $"No escape from {b.cartoonCharacter}. \n" +
+                    "  \n" +
+                    "Open your eyes \n" +
+                    $"Look up to the skies and {b.runVerb}, \n" + 
+                    $"I'm just a poor {b.boyNoun}, I need no sympathy, \n" +
+                    "Because I'm easy come, easy go,\n" +
+                    "Little high, little low,\n" +
+                    $"any way the wind {b.blowsVerb} doesn't really matter to {b.personName}, to {b.personName}.\n" +
+                    "  \n" +
+                    $"Mama, just killed a {b.manNoun}, \n" +
+                    $"Put a gun against his {b.headBodyPart}, \n" +
+                    $"Pulled my trigger, now he's {b.deadWord}.\n" +
+                    "Mama, life had just begun,\n" +
+                    $"But now I've gone and {b.thrownVerb} it all away.\n" +
+                    "  \n" +
+                    "Mama, ooh, \n" +
+                    "Didn't mean to make you cry,\n" +
+                    $"If I'm not back again this time {b.tomorrowDate},\n" +
+                    $"{b.carryOnSaying}, {b.carryOnSaying} as if nothing really matters.\n" +
+                    "  \n" +
+                    $"Too late, my {b.timeModeTransport} has come,\n" +
+                    $"Sends {b.shiversPluralNoun} down my spine,\n"+
+                    "Body's aching all the time.\n"+
+                    "Goodbye, everybody, I've got to go\n"+
+                    "Gotta leave you all behind and face the truth.\n"+
+                    "  \n" +
+                    $"Mama, ooh(Any way the wind {b.blowsVerb}), \n" +
+                    $"I don't want to {b.dieVerb}, \n" +
+                    "I sometimes wish I'd never been born at all.\n"+
+                    "  \n" +
+                    $"I see a little {b.silhouettoNoun} of a man,\n" +
+                    $"{b.ScaramoucheFamousGangster}, {b.ScaramoucheFamousGangster}, will you do the {b.fandangoDanceMove}?\n" +
+                    $"Thunderbolt and lightning very, very {b.frighteningVerb} me.\n" +
+                    $"({b.galileoFamousPerson}) {b.galileoFamousPerson}.\n" +
+                    $"({b.galileoFamousPerson}) {b.galileoFamousPerson},\n" +
+                    $"{b.galileoFamousPerson} Figaro\n" +
+                    $"{b.magnificoExcitedRemark} - o - o - o - o.\n" +
+                    "  \n" +
+                    $"I'm just a poor {b.boyNoun}, nobody loves me.\n" +
+                    $"He's just a poor {b.boyNoun} from a poor family,\n" +
+                    "Spare him his life from this monstrosity.\n"+
+                    "  \n" +
+                    "easy come, easy go, will you let me go ?\n" +
+                    $"{b.bismillahFamousBritishPerson}! No, we will not let you go. (Let him go!)\n" +
+                    $"{b.bismillahFamousBritishPerson}! We will not let you go. (Let him go!)\n" +
+                    $"{b.bismillahFamousBritishPerson}! We will not let you go. (Let me go!)\n" +
+                    "Will not let you go. (Let me go!)\n" +
+                    "Never let you go(Never, never, never, never let me go)\n" +
+                    "Oh oh oh oh\n" +
+                    "No, no, no, no, no, no, no\n" +
+                    "Oh, mama mia, mama mia(Mama mia, let me go.)\n" +
+                    $"{b.beezlebubPetName} has a devil put aside for me, for me, for me.\n" +
+                    "  \n" +
+                    $"So you think you can {b.stoneVerb} me and spit in my {b.eyeBodyPart}?\n" +
+                    $"So you think you can {b.loveVerb} me and leave me to {b.dieVerb} ?\n" +
+                    "Oh, baby, can't do this to me, baby,\n" +
+                    "Just gotta get out, just gotta get right outta here.\n" +
+                    "  \n" +
+                    "(Ooooh, ooh yeah, ooh yeah)\n" +
+                    "  \n" +
+                    $"{b.nothingNoun} really matters,\n" +
+                    "Anyone can see,\n" +
+                    $"{b.nothingNoun} really matters,\n" +
+                    $"{b.nothingNoun} really matters to me.\n" +
+                    "  \n" +
+                    $"Any way the wind {b.blowsVerb}..."
+                    );
+
+                //Console.Write("Hit enter to keep reading");
+                
             }
 
             void PlayMotivation()
