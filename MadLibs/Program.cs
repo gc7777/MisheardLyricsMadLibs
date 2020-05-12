@@ -37,7 +37,7 @@ namespace MadLibs
                 Console.WriteLine("Alright, let's play!");
                 Console.WriteLine("Pick a story:");
                 Console.WriteLine("1. Row Row Row Your ______");
-                Console.WriteLine("2. Bohemian Rhapsody: Misheard Lyrics Edition");
+                Console.WriteLine("2. Bohemian Rhapsody: Misheard Lyrics Edition (31 Word Choices)");
                 Console.WriteLine("3. Not just any motivational YouTube Ad");
                 int storyChoice = Convert.ToInt32(Console.ReadLine());
                 if (storyChoice == 1)
@@ -63,22 +63,22 @@ namespace MadLibs
             {
                 RowStory myRowStory = new RowStory();
                 Console.WriteLine("You picked Row, row, row your ______");
-                Console.WriteLine("Pick a noun");
+                Console.WriteLine($"Pick a noun ({Definitions.noun})");
                 myRowStory.boatNoun = Console.ReadLine();
 
-                Console.WriteLine("Pick another noun");
+                Console.WriteLine($"Pick another noun");
                 myRowStory.streamNoun = Console.ReadLine();
 
-                Console.WriteLine("Pick an adverb");
+                Console.WriteLine($"Pick an adverb");
                 myRowStory.merrilyAdverb = Console.ReadLine();
 
-                Console.WriteLine("Pick another adverb");
+                Console.WriteLine($"Pick another adverb");
                 myRowStory.merrily2 = Console.ReadLine();
 
-                Console.WriteLine("Pick a third adverb");
+                Console.WriteLine($"Pick a third adverb");
                 myRowStory.merrily3 = Console.ReadLine();
 
-                Console.WriteLine("Pick a noun finally");
+                Console.WriteLine($"Pick a noun finally");
                 myRowStory.dreamNoun = Console.ReadLine();
 
                 Console.WriteLine($"Row, row, row your {myRowStory.boatNoun} gently down the {myRowStory.streamNoun}. {myRowStory.merrilyAdverb}, merrily, {myRowStory.merrily2}, {myRowStory.merrily3} life is but a {myRowStory.dreamNoun}.");
@@ -87,7 +87,104 @@ namespace MadLibs
             void PlayQueen()
             {
                 Bohemian b = new Bohemian();
-                Console.WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition");
+                Console.WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition (31 words)");
+                Console.WriteLine("*****************************************************************");
+                Console.WriteLine($"Pick a noun ({Definitions.noun})");
+                b.lifeNoun = Console.ReadLine();
+
+                Console.WriteLine("Question 1 of 31 - Pick a natural disaster eg. flood");
+                b.naturalDisaster = Console.ReadLine();
+
+                Console.WriteLine("2 of 31 - Pick a cartoon character");
+                b.cartoonCharacter = Console.ReadLine();
+
+                Console.WriteLine($"3 of 31 - Pick a verb in present tense ({Definitions.verb})");
+                b.runVerb = Console.ReadLine();
+
+                Console.WriteLine($"4 of 31 - Pick a noun ({Definitions.noun})");
+                b.boyNoun = Console.ReadLine();
+
+                Console.WriteLine($"5 of 31 - Pick a verb in present tense({Definitions.verb})");
+                b.blowsVerb = Console.ReadLine();
+
+                Console.WriteLine("6 of 31 - Pick a person's name");
+                b.personName = Console.ReadLine();
+
+                Console.WriteLine($"7 of 31 - Pick a noun ({Definitions.noun})");
+                b.manNoun = Console.ReadLine();
+
+                Console.WriteLine("8 of 31 - Pick a part of the body");
+                b.headBodyPart = Console.ReadLine();
+
+                Console.WriteLine($"9 of 31 - Pick an adjective ({Definitions.adjective})");
+                b.deadWord = Console.ReadLine();
+
+                Console.WriteLine($"10 of 31 - Pick a past tense verb ({Definitions.verb})");
+                b.thrownVerb = Console.ReadLine();
+
+                Console.WriteLine("11 of 31 - Pick a point in time or a date");
+                b.tomorrowDate = Console.ReadLine();
+
+                Console.WriteLine("12 of 31 - Pick an outdated saying, eg. 'Keep on Truckin''");
+                b.carryOnSaying = Console.ReadLine();
+
+                Console.WriteLine("13 of 31 - Pick a mode of transport");
+                b.timeModeTransport = Console.ReadLine();
+
+                Console.WriteLine("14 of 31 - Pick an emotion eg. sadness");
+                b.shiversPluralNoun = Console.ReadLine();
+
+                Console.WriteLine("15 of 31 - Pick a verb ending in -ing eg. dancing");
+                b.achingVerb = Console.ReadLine();
+
+                Console.WriteLine("16 of 31 - Pick a videogame boss name eg. Wario");
+                b.truthBoss = Console.ReadLine();
+
+                Console.WriteLine($"17 of 31 - Pick a present tense verb ({Definitions.verb})");
+                b.dieVerb = Console.ReadLine();
+
+                Console.WriteLine($"18 of 31 - Pick a singular noun ({Definitions.noun})");
+                b.silhouettoNoun = Console.ReadLine();
+
+                Console.WriteLine("19 of 31 - Pick a famous gangster name");
+                b.scaramoucheFamousGangster = Console.ReadLine();
+
+                Console.WriteLine("20 of 31 - Pick a style of dance");
+                b.fandangoDanceMove = Console.ReadLine();
+
+                Console.WriteLine($"21 of 31 - Pick an adjective ({Definitions.adjective})");
+                b.frighteningAdjective = Console.ReadLine();
+
+                Console.WriteLine("22 of 31 - Pick a famous person");
+                b.galileoFamousPerson = Console.ReadLine();
+
+                Console.WriteLine("23 of 31 - Pick an exclamation eg. 'Holy Moly!' or 'Needs more cowbell!'");
+                b.magnificoExcitedRemark = Console.ReadLine();
+
+                Console.WriteLine("24 of 31 - Name one of your prized possessions");
+                b.lifePossession = Console.ReadLine();
+
+                Console.WriteLine("25 of 31 - Pick a famous British person");
+                b.bismillahFamousBritishPerson = Console.ReadLine();
+
+                Console.WriteLine("26 of 31 - Choose an animal sound");
+                b.noAnimalSound = Console.ReadLine();
+
+                Console.WriteLine("27 of 31 - Choose a pet's name");
+                b.beezlebubPetName = Console.ReadLine();
+
+                Console.WriteLine($"28 of 31 - Pick a verb in present tense ({Definitions.verb})");
+                b.stoneVerb = Console.ReadLine();
+
+                Console.WriteLine("29 of 31 - Pick a body part");
+                b.eyeBodyPart = Console.ReadLine();
+
+                Console.WriteLine($"30 of 31 - Almost done! Pick a verb ({Definitions.verb})");
+                b.loveVerb = Console.ReadLine();
+
+                Console.WriteLine("Last one! Pick something that is sentimental to you");
+                b.nothingNoun = Console.ReadLine();
+
 
                 Console.WriteLine(
                     $"Is this the real {b.lifeNoun}? \n" +
@@ -115,17 +212,17 @@ namespace MadLibs
                     "  \n" +
                     $"Too late, my {b.timeModeTransport} has come,\n" +
                     $"Sends {b.shiversPluralNoun} down my spine,\n"+
-                    "Body's aching all the time.\n"+
+                    $"Body's {b.achingVerb} all the time.\n"+
                     "Goodbye, everybody, I've got to go\n"+
-                    "Gotta leave you all behind and face the truth.\n"+
+                    $"Gotta leave you all behind and face {b.truthBoss}.\n"+
                     "  \n" +
                     $"Mama, ooh(Any way the wind {b.blowsVerb}), \n" +
                     $"I don't want to {b.dieVerb}, \n" +
                     "I sometimes wish I'd never been born at all.\n"+
                     "  \n" +
                     $"I see a little {b.silhouettoNoun} of a man,\n" +
-                    $"{b.ScaramoucheFamousGangster}, {b.ScaramoucheFamousGangster}, will you do the {b.fandangoDanceMove}?\n" +
-                    $"Thunderbolt and lightning very, very {b.frighteningVerb} me.\n" +
+                    $"{b.scaramoucheFamousGangster}, {b.scaramoucheFamousGangster}, will you do the {b.fandangoDanceMove}?\n" +
+                    $"Thunderbolt and lightning very, very {b.frighteningAdjective} me.\n" +
                     $"({b.galileoFamousPerson}) {b.galileoFamousPerson}.\n" +
                     $"({b.galileoFamousPerson}) {b.galileoFamousPerson},\n" +
                     $"{b.galileoFamousPerson} Figaro\n" +
@@ -133,7 +230,7 @@ namespace MadLibs
                     "  \n" +
                     $"I'm just a poor {b.boyNoun}, nobody loves me.\n" +
                     $"He's just a poor {b.boyNoun} from a poor family,\n" +
-                    "Spare him his life from this monstrosity.\n"+
+                    $"Spare him his {b.lifePossession} from this monstrosity.\n"+
                     "  \n" +
                     "easy come, easy go, will you let me go ?\n" +
                     $"{b.bismillahFamousBritishPerson}! No, we will not let you go. (Let him go!)\n" +
@@ -142,13 +239,13 @@ namespace MadLibs
                     "Will not let you go. (Let me go!)\n" +
                     "Never let you go(Never, never, never, never let me go)\n" +
                     "Oh oh oh oh\n" +
-                    "No, no, no, no, no, no, no\n" +
+                    $"{b.noAnimalSound}, {b.noAnimalSound}, {b.noAnimalSound}, {b.noAnimalSound}, {b.noAnimalSound},{b.noAnimalSound}, {b.noAnimalSound},\n" +
                     "Oh, mama mia, mama mia(Mama mia, let me go.)\n" +
                     $"{b.beezlebubPetName} has a devil put aside for me, for me, for me.\n" +
                     "  \n" +
                     $"So you think you can {b.stoneVerb} me and spit in my {b.eyeBodyPart}?\n" +
                     $"So you think you can {b.loveVerb} me and leave me to {b.dieVerb} ?\n" +
-                    "Oh, baby, can't do this to me, baby,\n" +
+                    $"Oh, {b.beezlebubPetName}, can't do this to me, {b.beezlebubPetName},\n" +
                     "Just gotta get out, just gotta get right outta here.\n" +
                     "  \n" +
                     "(Ooooh, ooh yeah, ooh yeah)\n" +
