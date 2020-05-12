@@ -92,94 +92,94 @@ namespace MadLibs
                 Console.WriteLine($"Pick a noun ({Definitions.noun})");
                 b.lifeNoun = Console.ReadLine();
 
-                Console.WriteLine("Pick a natural disaster eg. flood");
+                Console.WriteLine("Question 1 of 31 - Pick a natural disaster eg. flood");
                 b.naturalDisaster = Console.ReadLine();
 
-                Console.WriteLine("Pick a cartoon character");
+                Console.WriteLine("2 of 31 - Pick a cartoon character");
                 b.cartoonCharacter = Console.ReadLine();
 
-                Console.WriteLine($"Pick a verb in present tense ({Definitions.verb})");
+                Console.WriteLine($"3 of 31 - Pick a verb in present tense ({Definitions.verb})");
                 b.runVerb = Console.ReadLine();
 
-                Console.WriteLine($"Pick a noun ({Definitions.noun})");
+                Console.WriteLine($"4 of 31 - Pick a noun ({Definitions.noun})");
                 b.boyNoun = Console.ReadLine();
 
-                Console.WriteLine($"Pick a verb in present tense({Definitions.verb})");
+                Console.WriteLine($"5 of 31 - Pick a verb in present tense({Definitions.verb})");
                 b.blowsVerb = Console.ReadLine();
 
-                Console.WriteLine("Pick a person's name");
+                Console.WriteLine("6 of 31 - Pick a person's name");
                 b.personName = Console.ReadLine();
 
-                Console.WriteLine($"Pick a noun ({Definitions.noun})");
+                Console.WriteLine($"7 of 31 - Pick a noun ({Definitions.noun})");
                 b.manNoun = Console.ReadLine();
 
-                Console.WriteLine("Pick a part of the body");
+                Console.WriteLine("8 of 31 - Pick a part of the body");
                 b.headBodyPart = Console.ReadLine();
 
-                Console.WriteLine($"Pick an adjective ({Definitions.adjective})");
+                Console.WriteLine($"9 of 31 - Pick an adjective ({Definitions.adjective})");
                 b.deadWord = Console.ReadLine();
 
-                Console.WriteLine($"Pick a past tense verb ({Definitions.verb})");
+                Console.WriteLine($"10 of 31 - Pick a past tense verb ({Definitions.verb})");
                 b.thrownVerb = Console.ReadLine();
 
-                Console.WriteLine("Pick a point in time or a date");
+                Console.WriteLine("11 of 31 - Pick a point in time or a date");
                 b.tomorrowDate = Console.ReadLine();
 
-                Console.WriteLine("Pick an outdated saying, eg. 'Keep on Truckin''");
+                Console.WriteLine("12 of 31 - Pick an outdated saying, eg. 'Keep on Truckin''");
                 b.carryOnSaying = Console.ReadLine();
 
-                Console.WriteLine("Pick a mode of transport");
+                Console.WriteLine("13 of 31 - Pick a mode of transport");
                 b.timeModeTransport = Console.ReadLine();
 
-                Console.WriteLine("Pick an emotion eg. sadness");
+                Console.WriteLine("14 of 31 - Pick an emotion eg. sadness");
                 b.shiversPluralNoun = Console.ReadLine();
 
-                Console.WriteLine("Pick a verb ending in -ing eg. dancing");
+                Console.WriteLine("15 of 31 - Pick a verb ending in -ing eg. dancing");
                 b.achingVerb = Console.ReadLine();
 
-                Console.WriteLine("Pick a videogame boss name eg. Wario");
+                Console.WriteLine("16 of 31 - Pick a videogame boss name eg. Wario");
                 b.truthBoss = Console.ReadLine();
 
-                Console.WriteLine($"Pick a present tense verb ({Definitions.verb})");
+                Console.WriteLine($"17 of 31 - Pick a present tense verb ({Definitions.verb})");
                 b.dieVerb = Console.ReadLine();
 
-                Console.WriteLine($"Pick a singular noun ({Definitions.noun})");
+                Console.WriteLine($"18 of 31 - Pick a singular noun ({Definitions.noun})");
                 b.silhouettoNoun = Console.ReadLine();
 
-                Console.WriteLine("Pick a famous gangster name");
+                Console.WriteLine("19 of 31 - Pick a famous gangster name");
                 b.scaramoucheFamousGangster = Console.ReadLine();
 
-                Console.WriteLine("Pick a style of dance");
+                Console.WriteLine("20 of 31 - Pick a style of dance");
                 b.fandangoDanceMove = Console.ReadLine();
 
-                Console.WriteLine($"Pick an adjective ({Definitions.adjective})");
+                Console.WriteLine($"21 of 31 - Pick an adjective ({Definitions.adjective})");
                 b.frighteningAdjective = Console.ReadLine();
 
-                Console.WriteLine("Pick a famous person");
+                Console.WriteLine("22 of 31 - Pick a famous person");
                 b.galileoFamousPerson = Console.ReadLine();
 
-                Console.WriteLine("Pick an exclamation eg. 'Holy Moly!' or 'Needs more cowbell!'");
+                Console.WriteLine("23 of 31 - Pick an exclamation eg. 'Holy Moly!' or 'Needs more cowbell!'");
                 b.magnificoExcitedRemark = Console.ReadLine();
 
-                Console.WriteLine("Name one of your prized possessions");
+                Console.WriteLine("24 of 31 - Name one of your prized possessions");
                 b.lifePossession = Console.ReadLine();
 
-                Console.WriteLine("Pick a famous British person");
+                Console.WriteLine("25 of 31 - Pick a famous British person");
                 b.bismillahFamousBritishPerson = Console.ReadLine();
 
-                Console.WriteLine("Choose an animal sound");
+                Console.WriteLine("26 of 31 - Choose an animal sound");
                 b.noAnimalSound = Console.ReadLine();
 
-                Console.WriteLine("Choose a pet's name");
+                Console.WriteLine("27 of 31 - Choose a pet's name");
                 b.beezlebubPetName = Console.ReadLine();
 
-                Console.WriteLine($"Pick a verb in present tense ({Definitions.verb})");
+                Console.WriteLine($"28 of 31 - Pick a verb in present tense ({Definitions.verb})");
                 b.stoneVerb = Console.ReadLine();
 
-                Console.WriteLine("Pick a body part");
+                Console.WriteLine("29 of 31 - Pick a body part");
                 b.eyeBodyPart = Console.ReadLine();
 
-                Console.WriteLine($"Almost done! Pick a verb ({Definitions.verb})");
+                Console.WriteLine($"30 of 31 - Almost done! Pick a verb ({Definitions.verb})");
                 b.loveVerb = Console.ReadLine();
 
                 Console.WriteLine("Last one! Pick something that is sentimental to you");
