@@ -12,6 +12,5 @@ namespace MadLibs
                       merrily2      = "merrily",
                       merrily3      = "merrily",
                       dreamNoun     = "noun";
-
     }
 }
