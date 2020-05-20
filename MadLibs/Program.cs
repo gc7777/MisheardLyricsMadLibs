@@ -25,7 +25,7 @@ namespace MadLibs
                 }
                 else if (response == "N" || response == "n")
                 {
-                    WriteLine("No problem. Here's how you play: " + Definitions.instructions);
+                    WriteLine("Here's how you play: " + Definitions.instructions);
                     WriteLine();
                     PickCategory();
                 }
