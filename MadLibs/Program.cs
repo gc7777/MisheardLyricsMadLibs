@@ -6,6 +6,7 @@ namespace MadLibs
     {
         static void Main(string[] args)
         {
+            RowStory r = new RowStory();
             GoToMainMenu();
 
             void GoToMainMenu()
@@ -42,7 +43,9 @@ namespace MadLibs
                 int storyChoice = Convert.ToInt32(Console.ReadLine());
                 if (storyChoice == 1)
                 {
-                    PlayRowYourBoat();
+                   
+                    r.Play();
+                    //PlayRowYourBoat();
                 }
                 else if (storyChoice == 2)
                 {
@@ -59,30 +62,31 @@ namespace MadLibs
                 }
             }
 
-            void PlayRowYourBoat()
-            {
-                RowStory myRowStory = new RowStory();
-                Console.WriteLine("You picked Row, row, row your ______");
-                Console.WriteLine($"Pick a noun ({Definitions.noun})");
-                myRowStory.boatNoun = Console.ReadLine();
+            //void PlayRowYourBoat()
+            //{
+            //    RowStory r = new RowStory();
 
-                Console.WriteLine($"Pick another noun");
-                myRowStory.streamNoun = Console.ReadLine();
+                //Console.WriteLine("You picked Row, row, row your ______");
+                //Console.WriteLine($"Pick a noun ({Definitions.noun})");
+                //myRowStory.boatNoun = Console.ReadLine();
 
-                Console.WriteLine($"Pick an adverb");
-                myRowStory.merrilyAdverb = Console.ReadLine();
+                //Console.WriteLine($"Pick another noun");
+                //myRowStory.streamNoun = Console.ReadLine();
 
-                Console.WriteLine($"Pick another adverb");
-                myRowStory.merrily2 = Console.ReadLine();
+                //Console.WriteLine($"Pick an adverb");
+                //myRowStory.merrilyAdverb = Console.ReadLine();
 
-                Console.WriteLine($"Pick a third adverb");
-                myRowStory.merrily3 = Console.ReadLine();
+                //Console.WriteLine($"Pick another adverb");
+                //myRowStory.merrily2 = Console.ReadLine();
 
-                Console.WriteLine($"Pick a noun finally");
-                myRowStory.dreamNoun = Console.ReadLine();
+                //Console.WriteLine($"Pick a third adverb");
+                //myRowStory.merrily3 = Console.ReadLine();
 
-                Console.WriteLine($"Row, row, row your {myRowStory.boatNoun} gently down the {myRowStory.streamNoun}. {myRowStory.merrilyAdverb}, merrily, {myRowStory.merrily2}, {myRowStory.merrily3} life is but a {myRowStory.dreamNoun}.");
-            }
+                //Console.WriteLine($"Pick a noun finally");
+                //myRowStory.dreamNoun = Console.ReadLine();
+
+                //Console.WriteLine($"Row, row, row your {myRowStory.boatNoun} gently down the {myRowStory.streamNoun}. {myRowStory.merrilyAdverb}, merrily, {myRowStory.merrily2}, {myRowStory.merrily3} life is but a {myRowStory.dreamNoun}.");
+            //}
 
             void PlayQueen()
             {
