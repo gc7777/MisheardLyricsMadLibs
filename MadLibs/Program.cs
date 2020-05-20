@@ -37,8 +37,8 @@ namespace MadLibs
             {
                 Console.WriteLine("Alright, let's play!");
                 Console.WriteLine("Pick a story:");
-                Console.WriteLine("1. Row Row Row Your ______");
-                Console.WriteLine("2. Bohemian Rhapsody: Misheard Lyrics Edition (31 Word Choices)");
+                Console.WriteLine("1. Row Row Row Your ______ (Easy Mode - 6 Words)");
+                Console.WriteLine("2. Bohemian Rhapsody: Misheard Lyrics Edition (Epic Mode - 31 Word Choices)");
                 Console.WriteLine("3. Not just any motivational YouTube Ad");
                 int storyChoice = Convert.ToInt32(Console.ReadLine());
                 if (storyChoice == 1)

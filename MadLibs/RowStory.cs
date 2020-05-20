@@ -21,19 +21,19 @@ namespace MadLibs
             WriteLine($"Pick a noun ({Definitions.noun})");
             boatNoun = ReadLine();
 
-            WriteLine($"Pick another noun");
+            WriteLine($"Pick another noun ({Definitions.noun})");
             streamNoun = ReadLine();
 
-            WriteLine($"Pick an adverb");
+            WriteLine($"Pick an adverb ({Definitions.adverb})");
             merrilyAdverb = ReadLine();
 
-            WriteLine($"Pick another adverb");
+            WriteLine($"Pick another adverb ({Definitions.adverb})");
             merrily2 = ReadLine();
 
-            WriteLine($"Pick a third adverb");
+            WriteLine($"Pick a third adverb ({Definitions.adverb})");
             merrily3 = ReadLine();
 
-            WriteLine($"Pick a noun finally");
+            WriteLine($"Last one! Pick a noun finally ({Definitions.noun})");
             dreamNoun = ReadLine();
 
             WriteLine($"Row, row, row your {boatNoun} gently down the {streamNoun}. {merrilyAdverb}, merrily, {merrily2}, {merrily3} life is but a {dreamNoun}.");
