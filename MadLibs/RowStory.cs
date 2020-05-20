@@ -14,8 +14,7 @@ namespace MadLibs
                       merrily3      = "merrily",
                       dreamNoun     = "noun";
 
-
-        public void Play()
+        public void PlayRow()
         {
             WriteLine("You picked Row, row, row your ______");
             WriteLine($"Pick a noun ({Definitions.noun})");
