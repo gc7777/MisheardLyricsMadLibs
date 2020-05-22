@@ -8,38 +8,38 @@ namespace MadLibs
     public class Motivation
     {
         public string 
-          celeb         = "",
-          talkhost      = "",
-          carModel      = "",
-          carBrand      = "",
-          nounPlace     = "",
-          nounPerson    = "",
-          clothingBrand = "",
-          cheapBeverage = "",
-          pluralNoun    = "",
-          pluralNoun2   = "",
-          country       = "",
-          website       = "",
-          exclamation   = "",
-          feeling       = "",
-          city          = "",
-          pluralNoun3   = "",
-          verbING       = "",
-          noun          = "",
-          beverage      = "",
-          place         = "",
-          verb          = "",
-          adverb        = "";
+          celeb         = "Justin Bieber",
+          talkhost      = "Maury Povich",
+          carModel      = "1993 Honda Civic",
+          carBrand      = "Datsun",
+          nounPlace     = "Lifeguard Tower",
+          nounPerson    = "Crocodile Dundee",
+          clothingBrand = "George by Walmart!",
+          cheapBeverage = "RC Cola",
+          pluralNoun    = "free samples of dental floss",
+          pluralNoun2   = "sandpaper",
+          country       = "Republic of Congo",
+          website       = "myspace.com",
+          exclamation   = "Tame Impala is really just one guy!",
+          feeling       = "trepidation",
+          city          = "Pyong Jang",
+          pluralNoun3   = "sloths",
+          verbING       = "understanding",
+          noun          = "8 track",
+          beverage      = "President's Choice brand cream soda",
+          place         = "a wormhole",
+          verb          = "reverb",
+          adverb        = "interestingly";
 
         public int 
-          number           = 0,
-          number2          = 0,
-          number3          = 0,
-          percentage       = 0,
-          amount           = 0,
-          percentage2      = 0,
-          number4          = 0,
-          number5          = 0;
+          number           = 10,
+          number2          = 8000,
+          number3          = 23,
+          percentage       = 75,
+          amount           = 3000,
+          percentage2      = 2,
+          number4          = 1330,
+          number5          = 220;
 
         public void PlayMotivation()
         {
