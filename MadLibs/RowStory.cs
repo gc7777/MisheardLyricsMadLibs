@@ -7,12 +7,12 @@ namespace MadLibs
 {
     public class RowStory
     {
-        public string boatNoun      = "boat",
-                      streamNoun    = "stream",
-                      merrilyAdverb = "merrily",
-                      merrily2      = "merrily",
-                      merrily3      = "merrily",
-                      dreamNoun     = "noun";
+        public string boatNoun      = "cat",
+                      streamNoun    = "asteroid belt",
+                      merrilyAdverb = "suddenly",
+                      merrily2      = "effectively",
+                      merrily3      = "trepidatiously",
+                      dreamNoun     = "Chevrolet";
 
         public void PlayRow()
         {
