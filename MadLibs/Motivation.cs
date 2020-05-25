@@ -14,20 +14,20 @@ namespace MadLibs
           carBrand      = "Datsun",
           nounPlace     = "Lifeguard Tower",
           nounPerson    = "Crocodile Dundee",
-          clothingBrand = "George by Walmart!",
+          clothingBrand = "George by Walmart",
           cheapBeverage = "RC Cola",
           pluralNoun    = "free samples of dental floss",
           pluralNoun2   = "sandpaper",
           country       = "Republic of Congo",
           website       = "myspace.com",
-          exclamation   = "Tame Impala is really just one guy!",
-          feeling       = "trepidation",
+          exclamation   = "Tame Impala is not a band it's just one guy!",
+          feeling       = "trepidatious",
           city          = "Pyong Jang",
           pluralNoun3   = "sloths",
           verbING       = "understanding",
           noun          = "8 track",
           beverage      = "President's Choice brand cream soda",
-          place         = "a wormhole",
+          place         = "wormhole",
           verb          = "reverb",
           adverb        = "interestingly";
 
@@ -49,7 +49,7 @@ namespace MadLibs
             string celebString = ReadLine();
             if (!string.IsNullOrEmpty(celebString))
             {
-                celeb = ReadLine();
+                celeb = celebString;
             }
 
             WriteLine("Question 2 of 30 - Pick a number between 1-100");
@@ -66,14 +66,14 @@ namespace MadLibs
             string hostString = ReadLine();
             if (!string.IsNullOrEmpty(hostString))
             {
-                talkhost = ReadLine();
+                talkhost = hostString;
             }
 
             WriteLine("Question 4 of 30 - Pick a car model (brand name followed by model)");
             string carModelString = ReadLine();
             if (!string.IsNullOrEmpty(carModelString))
             {
-carModel = ReadLine();
+                carModel = carModelString;
             }
                 
 
@@ -90,32 +90,32 @@ carModel = ReadLine();
             WriteLine("Question 6 of 30 - Pick a car brand");
             string carBrandString = ReadLine();
             if (!string.IsNullOrEmpty(carBrandString))
-                carBrand = ReadLine();
+                carBrand = carBrandString;
 
             WriteLine("Question 7 of 30 - Pick a place");
             string nounPlaceString = ReadLine();
             if (!string.IsNullOrEmpty(nounPlaceString))
-                nounPlace = ReadLine();
+                nounPlace = nounPlaceString;
 
             WriteLine("Question 8 of 30 - Pick a person");
             string personString = ReadLine();
             if (!string.IsNullOrEmpty(personString))
-                nounPerson = ReadLine();
+                nounPerson = personString;
 
             WriteLine("Question 9 of 30 - Pick a clothing brand");
             string clothingString = ReadLine();
             if (!string.IsNullOrEmpty(clothingString))
-                clothingBrand = ReadLine();
+                clothingBrand = clothingString;
 
             WriteLine("Question 10 of 30 - Pick a cheap beverage");
             string cheapBeverageString = ReadLine();
             if (!string.IsNullOrEmpty(cheapBeverageString))
-                cheapBeverage = ReadLine();
+                cheapBeverage = cheapBeverageString;
 
             WriteLine($"Question 11 of 30 - Pick a plural noun ({Definitions.noun})");
             string pluralNounString = ReadLine();
             if (!string.IsNullOrEmpty(pluralNounString))
-                pluralNoun = ReadLine();
+                pluralNoun = pluralNounString;
 
             WriteLine("Question 12 of 30 - Pick a number");
             string response3 = ReadLine();
@@ -130,7 +130,7 @@ carModel = ReadLine();
             WriteLine($"Question 13 of 30 - Pick another plural noun ({Definitions.noun})");
             string pluralNoun2String = ReadLine();
             if (!string.IsNullOrEmpty(pluralNoun2String))
-                pluralNoun2 = ReadLine();
+                pluralNoun2 = pluralNoun2String;
 
             WriteLine($"Question 14 of 30 - Pick a country");
             string countryString = ReadLine();
@@ -150,7 +150,7 @@ carModel = ReadLine();
             WriteLine("Question 16 of 30 - Pick a website");
             string websiteString = ReadLine();
             if (!string.IsNullOrEmpty(websiteString))
-                website = ReadLine();
+                website = websiteString;
 
             WriteLine($"Question 17 of 30 - Pick an exclamation ({Definitions.exclamation})");
             string exclamationString = ReadLine(); //read what user wrote
@@ -162,7 +162,7 @@ carModel = ReadLine();
             WriteLine("Question 18 of 30 - Pick a feeling");
             string feelingString = ReadLine();
             if (!string.IsNullOrEmpty(feelingString))
-                feeling = ReadLine();
+                feeling = feelingString;
 
             WriteLine("Question 19 of 30 - Pick a number");
             string response5 = ReadLine();
@@ -177,12 +177,12 @@ carModel = ReadLine();
             WriteLine("Question 20 of 30 - Pick a city");
             string cityString = ReadLine();
             if (!string.IsNullOrEmpty(cityString))
-                city = ReadLine();
+                city = cityString;
 
             WriteLine($"Question 21 of Pick another plural noun ({Definitions.noun})");
             string pluralNoun3String = ReadLine();
             if (!string.IsNullOrEmpty(pluralNoun3String))
-                pluralNoun3 = ReadLine();
+                pluralNoun3 = pluralNoun3String;
 
             WriteLine("Question 22 of 30 - Pick a number");
             string response6 = ReadLine();
@@ -198,32 +198,32 @@ carModel = ReadLine();
             WriteLine("Question 23 of 30 - Pick a verb ending in -ing eg. 'running'");
             string verbINGString = ReadLine();
             if (!string.IsNullOrEmpty(verbINGString))
-                verbING = ReadLine();
+                verbING = verbINGString;
 
             WriteLine($"Question 24 of 30 - Pick a noun ({Definitions.noun})");
             string nounString = ReadLine();
             if (!string.IsNullOrEmpty(nounString))
-                noun = ReadLine();
+                noun = nounString;
 
             WriteLine("Question 25 of 30 - Pick a beverage");
             string beverageString = ReadLine();
             if (!string.IsNullOrEmpty(beverageString))
-                beverage = ReadLine();
+                beverage = beverageString;
 
             WriteLine($"Question 26 of 30 - Pick a place");
             string placeString = ReadLine();
             if (!string.IsNullOrEmpty(placeString))
-                place = ReadLine();
+                place = placeString;
 
             WriteLine($"Question 27 of 30 - Pick a verb ({Definitions.verb})");
             string verbString = ReadLine();
             if (!string.IsNullOrEmpty(verbString))
-                verb = ReadLine();
+                verb = verbString;
 
             WriteLine($"Question 28 of Pick an adverb ({Definitions.adverb})");
             string adverbString = ReadLine();
             if (!string.IsNullOrEmpty(adverbString))
-                adverb = ReadLine();
+                adverb = adverbString;
 
             WriteLine("Question 30 of 30 - Almost there! Pick a number");
             string response7 = ReadLine();
