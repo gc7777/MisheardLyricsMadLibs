@@ -46,7 +46,11 @@ namespace MadLibs
             WriteLine("You picked 'Not just any motivational YouTube Ad (Challenge Accepted Mode - 30 Word Choices)'");
 
             WriteLine("Question 1 of 30 - Pick a washed up celebrity");
-            celeb = ReadLine();
+            string celebString = ReadLine();
+            if (!string.IsNullOrEmpty(celebString))
+            {
+                celeb = ReadLine();
+            }
 
             WriteLine("Question 2 of 30 - Pick a number between 1-100");
             string response1 = ReadLine();
@@ -59,10 +63,19 @@ namespace MadLibs
             number = value1;
 
             WriteLine("Question 3 of 30 - Pick a famous talk show host");
-            talkhost = ReadLine();
+            string hostString = ReadLine();
+            if (!string.IsNullOrEmpty(hostString))
+            {
+                talkhost = ReadLine();
+            }
 
             WriteLine("Question 4 of 30 - Pick a car model (brand name followed by model)");
-            carModel = ReadLine();
+            string carModelString = ReadLine();
+            if (!string.IsNullOrEmpty(carModelString))
+            {
+carModel = ReadLine();
+            }
+                
 
             WriteLine("Question 5 of 30 - Pick a number");
             string response2 = ReadLine();
@@ -75,22 +88,34 @@ namespace MadLibs
             number2 = value2;
 
             WriteLine("Question 6 of 30 - Pick a car brand");
-            carBrand = ReadLine();
+            string carBrandString = ReadLine();
+            if (!string.IsNullOrEmpty(carBrandString))
+                carBrand = ReadLine();
 
             WriteLine("Question 7 of 30 - Pick a place");
-            nounPlace = ReadLine();
+            string nounPlaceString = ReadLine();
+            if (!string.IsNullOrEmpty(nounPlaceString))
+                nounPlace = ReadLine();
 
             WriteLine("Question 8 of 30 - Pick a person");
-            nounPerson = ReadLine();
+            string personString = ReadLine();
+            if (!string.IsNullOrEmpty(personString))
+                nounPerson = ReadLine();
 
             WriteLine("Question 9 of 30 - Pick a clothing brand");
-            clothingBrand = ReadLine();
+            string clothingString = ReadLine();
+            if (!string.IsNullOrEmpty(clothingString))
+                clothingBrand = ReadLine();
 
             WriteLine("Question 10 of 30 - Pick a cheap beverage");
-            cheapBeverage = ReadLine();
+            string cheapBeverageString = ReadLine();
+            if (!string.IsNullOrEmpty(cheapBeverageString))
+                cheapBeverage = ReadLine();
 
             WriteLine($"Question 11 of 30 - Pick a plural noun ({Definitions.noun})");
-            pluralNoun = ReadLine();
+            string pluralNounString = ReadLine();
+            if (!string.IsNullOrEmpty(pluralNounString))
+                pluralNoun = ReadLine();
 
             WriteLine("Question 12 of 30 - Pick a number");
             string response3 = ReadLine();
@@ -103,10 +128,14 @@ namespace MadLibs
             number3 = value3;
 
             WriteLine($"Question 13 of 30 - Pick another plural noun ({Definitions.noun})");
-            pluralNoun2 = ReadLine();
+            string pluralNoun2String = ReadLine();
+            if (!string.IsNullOrEmpty(pluralNoun2String))
+                pluralNoun2 = ReadLine();
 
             WriteLine($"Question 14 of 30 - Pick a country");
-            country = ReadLine();
+            string countryString = ReadLine();
+            if (!string.IsNullOrEmpty(countryString))
+                country = ReadLine();
 
             WriteLine("Question 15 of 30 - Pick a number");
             string response4 = ReadLine();
@@ -119,13 +148,21 @@ namespace MadLibs
             percentage = value4;
 
             WriteLine("Question 16 of 30 - Pick a website");
-            website = ReadLine();
+            string websiteString = ReadLine();
+            if (!string.IsNullOrEmpty(websiteString))
+                website = ReadLine();
 
             WriteLine($"Question 17 of 30 - Pick an exclamation ({Definitions.exclamation})");
-            exclamation = ReadLine().ToUpper();
+            string exclamationString = ReadLine(); //read what user wrote
+            if (!string.IsNullOrEmpty(exclamationString)) //user enters something
+            { 
+                exclamation = exclamationString.ToUpper();
+            }  // default, user presses enter without typing anything, use defaults
 
             WriteLine("Question 18 of 30 - Pick a feeling");
-            feeling = ReadLine();
+            string feelingString = ReadLine();
+            if (!string.IsNullOrEmpty(feelingString))
+                feeling = ReadLine();
 
             WriteLine("Question 19 of 30 - Pick a number");
             string response5 = ReadLine();
@@ -138,10 +175,14 @@ namespace MadLibs
             amount = value5;
 
             WriteLine("Question 20 of 30 - Pick a city");
-            city = ReadLine();
+            string cityString = ReadLine();
+            if (!string.IsNullOrEmpty(cityString))
+                city = ReadLine();
 
             WriteLine($"Question 21 of Pick another plural noun ({Definitions.noun})");
-            pluralNoun3 = ReadLine();
+            string pluralNoun3String = ReadLine();
+            if (!string.IsNullOrEmpty(pluralNoun3String))
+                pluralNoun3 = ReadLine();
 
             WriteLine("Question 22 of 30 - Pick a number");
             string response6 = ReadLine();
@@ -155,22 +196,34 @@ namespace MadLibs
 
 
             WriteLine("Question 23 of 30 - Pick a verb ending in -ing eg. 'running'");
-            verbING = ReadLine();
+            string verbINGString = ReadLine();
+            if (!string.IsNullOrEmpty(verbINGString))
+                verbING = ReadLine();
 
             WriteLine($"Question 24 of 30 - Pick a noun ({Definitions.noun})");
-            noun = ReadLine();
+            string nounString = ReadLine();
+            if (!string.IsNullOrEmpty(nounString))
+                noun = ReadLine();
 
             WriteLine("Question 25 of 30 - Pick a beverage");
-            beverage = ReadLine();
+            string beverageString = ReadLine();
+            if (!string.IsNullOrEmpty(beverageString))
+                beverage = ReadLine();
 
             WriteLine($"Question 26 of 30 - Pick a place");
-            place = ReadLine();
+            string placeString = ReadLine();
+            if (!string.IsNullOrEmpty(placeString))
+                place = ReadLine();
 
             WriteLine($"Question 27 of 30 - Pick a verb ({Definitions.verb})");
-            verb = ReadLine();
+            string verbString = ReadLine();
+            if (!string.IsNullOrEmpty(verbString))
+                verb = ReadLine();
 
             WriteLine($"Question 28 of Pick an adverb ({Definitions.adverb})");
-            adverb = ReadLine();
+            string adverbString = ReadLine();
+            if (!string.IsNullOrEmpty(adverbString))
+                adverb = ReadLine();
 
             WriteLine("Question 30 of 30 - Almost there! Pick a number");
             string response7 = ReadLine();
@@ -199,7 +252,7 @@ namespace MadLibs
 
                 $"About six years ago, I was working at {nounPlace} when my mentor {nounPerson} came in wearing {clothingBrand} shoes and I just knew I had to be like them. We went out for a {cheapBeverage} and they told me, '{celeb}, in order to retire early you need to dropship {pluralNoun}.' At that time I had no idea what dropshipping was, but what I heard was so simple. \n" +
                 
-                $"{nounPerson} said, 'All you have to do is just buy {number3} {pluralNoun2} from {country} and sell them at a {percentage}% markup on {website}. That's it! That's all you gotta do.' When {nounPerson} told me how easy it was, I was so {feeling} just shouted from the rooftops, '{exclamation}!!' Then I just cash my cheque for ${amount} and then I can spend it on whatever I want. If I want to vacation in {city} no one's gonna stop me. \n " +
+                $"{nounPerson} said, 'All you have to do is just buy {number3} {pluralNoun2} from {country} and sell them at a {percentage}% markup on {website}. That's it! That's all you gotta do.' When {nounPerson} told me how easy it was, I was so {feeling} just shouted from the rooftops, '{exclamation.ToUpper()}!!' Then I just cash my cheque for ${amount} and then I can spend it on whatever I want. If I want to vacation in {city} no one's gonna stop me. \n " +
                 
                 $"I've got the freedom units to buy {pluralNoun3} every day if I want to. I'll tell you what, {percentage2}% of people won't even try this. They'll be stuck {verbING} all day at a {noun} they hate and I'll be laughing, drinking my {beverage} by the {place}. And you can too if you buy my ebook, 'How to {verb} {adverb}' for the low, low price of ${number4} but only for the next {number5} minutes. We can't do this all day.");
 
