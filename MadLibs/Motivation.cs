@@ -55,12 +55,16 @@ namespace MadLibs
             WriteLine("Question 2 of 30 - Pick a number between 1-100");
             string response1 = ReadLine();
             int value1;
-            while (!int.TryParse(response1, out value1))
+            if (!string.IsNullOrEmpty(response1))
             {
-                WriteLine("Didn't I make myself clear? Enter a NUMBER!");
-                response1 = ReadLine();
+                while (!int.TryParse(response1, out value1))
+                {
+                    WriteLine("Didn't I make myself clear? Enter a NUMBER!");
+                    response1 = ReadLine();
+                }
+                number = value1;
             }
-            number = value1;
+           
 
             WriteLine("Question 3 of 30 - Pick a famous talk show host");
             string hostString = ReadLine();
