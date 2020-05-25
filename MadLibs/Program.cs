@@ -7,9 +7,6 @@ namespace MadLibs
     {
         static void Main(string[] args)
         {
-            RowStory   r = new RowStory();
-            Motivation m = new Motivation();
-            Bohemian   b = new Bohemian();
             GoToMainMenu();
 
             void GoToMainMenu()
@@ -47,14 +44,17 @@ namespace MadLibs
                 int storyChoice = Convert.ToInt32(ReadLine());
                 if (storyChoice == 1)
                 {
+                    RowStory r = new RowStory();
                     r.PlayRow();
                 }
                 else if (storyChoice == 2)
                 {
+                    Motivation m = new Motivation();
                     m.PlayMotivation();
                 }
                 else if(storyChoice == 3)
                 {
+                    Bohemian b = new Bohemian();
                     b.PlayQueen();
                 }
                 else

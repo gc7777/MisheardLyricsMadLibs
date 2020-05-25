@@ -43,99 +43,100 @@ namespace MadLibs
 
         public void PlayQueen()
         {
-            WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition (31 words)");
-            WriteLine("*****************************************************************");
-            WriteLine($"Pick a noun ({Definitions.noun})");
+            WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition (31 words) \n You can skip questions, but they where's the fun in that? \n *****************************************************************");
+            WriteLine();
+
+            WriteLine($"Question 1 of 31 - Pick a noun ({Definitions.noun})");
             lifeNoun = ReadLine();
 
-            WriteLine("Question 1 of 31 - Pick a natural disaster eg. flood");
+            WriteLine("2 of 31 - Pick a natural disaster eg. flood");
             naturalDisaster = ReadLine();
 
-            WriteLine("2 of 31 - Pick a cartoon character");
+            WriteLine("3 of 31 - Pick a cartoon character");
             cartoonCharacter = ReadLine();
 
-            WriteLine($"3 of 31 - Pick a verb in present tense ({Definitions.verb})");
+            WriteLine($"4 of 31 - Pick a verb in present tense ({Definitions.verb})");
             runVerb = ReadLine();
 
-            WriteLine($"4 of 31 - Pick a noun ({Definitions.noun})");
+            WriteLine($"5 of 31 - Pick a noun ({Definitions.noun})");
             boyNoun = ReadLine();
 
-            WriteLine($"5 of 31 - Pick a verb in present tense({Definitions.verb})");
+            WriteLine($"6 of 31 - Pick a verb in present tense({Definitions.verb})");
             blowsVerb = ReadLine();
 
-            WriteLine("6 of 31 - Pick a person's name");
+            WriteLine("7 of 31 - Pick a person's name");
             personName = ReadLine();
 
-            WriteLine($"7 of 31 - Pick a noun ({Definitions.noun})");
+            WriteLine($"8 of 31 - Pick a noun ({Definitions.noun})");
             manNoun = ReadLine();
 
-            WriteLine("8 of 31 - Pick a part of the body");
+            WriteLine("9 of 31 - Pick a part of the body");
             headBodyPart = ReadLine();
 
-            WriteLine($"9 of 31 - Pick an adjective ({Definitions.adjective})");
+            WriteLine($"10 of 31 - Pick an adjective ({Definitions.adjective})");
             deadWord = ReadLine();
 
-            WriteLine($"10 of 31 - Pick a past tense verb ({Definitions.verb})");
+            WriteLine($"11 of 31 - Pick a past tense verb ({Definitions.verb})");
             thrownVerb = ReadLine();
 
-            WriteLine("11 of 31 - Pick a point in time or a date");
+            WriteLine("12 of 31 - Pick a point in time or a date");
             tomorrowDate = ReadLine();
 
-            WriteLine("12 of 31 - Pick an outdated saying, eg. 'Keep on Truckin''");
+            WriteLine("13 of 31 - Pick an outdated saying, eg. 'Keep on Truckin''");
             carryOnSaying = ReadLine();
 
-            WriteLine("13 of 31 - Pick a mode of transport");
+            WriteLine("14 of 31 - Pick a mode of transport");
             timeModeTransport = ReadLine();
 
-            WriteLine("14 of 31 - Pick an emotion eg. sadness");
+            WriteLine("15 of 31 - Pick an emotion eg. sadness");
             shiversPluralNoun = ReadLine();
 
-            WriteLine("15 of 31 - Pick a verb ending in -ing eg. dancing");
+            WriteLine("16 of 31 - Pick a verb ending in -ing eg. dancing");
             achingVerb = ReadLine();
 
-            WriteLine("16 of 31 - Pick a videogame boss name eg. Wario");
+            WriteLine("17 of 31 - Pick a videogame boss name eg. Wario");
             truthBoss = ReadLine();
 
-            WriteLine($"17 of 31 - Pick a present tense verb ({Definitions.verb})");
+            WriteLine($"18 of 31 - Pick a present tense verb ({Definitions.verb})");
             dieVerb = ReadLine();
 
-            WriteLine($"18 of 31 - Pick a singular noun ({Definitions.noun})");
+            WriteLine($"19 of 31 - Pick a singular noun ({Definitions.noun})");
             silhouettoNoun = ReadLine();
 
-            WriteLine("19 of 31 - Pick a famous gangster name");
+            WriteLine("20 of 31 - Pick a famous gangster name");
             scaramoucheFamousGangster = ReadLine();
 
-            WriteLine("20 of 31 - Pick a style of dance");
+            WriteLine("21 of 31 - Pick a style of dance");
             fandangoDanceMove = ReadLine();
 
-            WriteLine($"21 of 31 - Pick an adjective ({Definitions.adjective})");
+            WriteLine($"22 of 31 - Pick an adjective ({Definitions.adjective})");
             frighteningAdjective = ReadLine();
 
-            WriteLine("22 of 31 - Pick a famous person");
+            WriteLine("23 of 31 - Pick a famous person");
             galileoFamousPerson = ReadLine();
 
-            WriteLine("23 of 31 - Pick an exclamation eg. 'Holy Moly!' or 'Needs more cowbell!'");
+            WriteLine("24 of 31 - Pick an exclamation eg. 'Holy Moly!' or 'Needs more cowbell!'");
             magnificoExcitedRemark = ReadLine();
 
-            WriteLine("24 of 31 - Name one of your prized possessions");
+            WriteLine("25 of 31 - Name one of your prized possessions");
             lifePossession = ReadLine();
 
-            WriteLine("25 of 31 - Pick a famous British person");
+            WriteLine("26 of 31 - Pick a famous British person");
             bismillahFamousBritishPerson = ReadLine();
 
-            WriteLine("26 of 31 - Choose an animal sound");
+            WriteLine("27 of 31 - Choose an animal sound");
             noAnimalSound = ReadLine();
 
-            WriteLine("27 of 31 - Choose a pet's name");
+            WriteLine("28 of 31 - Choose a pet's name");
             beezlebubPetName = ReadLine();
 
-            WriteLine($"28 of 31 - Pick a verb in present tense ({Definitions.verb})");
+            WriteLine($"29 of 31 - Pick a verb in present tense ({Definitions.verb})");
             stoneVerb = ReadLine();
 
-            WriteLine("29 of 31 - Pick a body part");
+            WriteLine("30 of 31 - Pick a body part");
             eyeBodyPart = ReadLine();
 
-            WriteLine($"30 of 31 - Almost done! Pick a verb ({Definitions.verb})");
+            WriteLine($"31 of 31 - Almost done! Pick a verb ({Definitions.verb})");
             loveVerb = ReadLine();
 
             WriteLine("Last one! Pick something that is sentimental to you");
