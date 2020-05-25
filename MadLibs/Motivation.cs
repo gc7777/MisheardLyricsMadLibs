@@ -269,7 +269,7 @@ namespace MadLibs
                 number5 = value8;
             }    
 
-            WriteLine("Here's the story you created: entitled 'Not just any motivational YouTube Ad'");
+            WriteLine("Here's the story you created, entitled 'Not just any motivational YouTube Ad'");
             WriteLine($"Hi, my name is {celeb} and I'm gonna teach you about how I make ${number} while I'm sleeping. Pay attention, because I'm going to share with you the stuff not even {talkhost} will tell you about finance. \n " +
 
                 $"I'm coming to you from my garage, just took my {carModel} out for a spin. I know what you're thinking. You see me standing in front of my {number2} {carBrand}s and you're asking yourself, '{celeb}, what's your secret?' By the end of this, you're gonna want to quit your day job. \n " +
