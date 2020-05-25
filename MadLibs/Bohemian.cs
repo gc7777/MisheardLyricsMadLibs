@@ -43,104 +43,234 @@ namespace MadLibs
 
         public void PlayQueen()
         {
-            WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition (31 words) \n You can skip questions, but they where's the fun in that? \n *****************************************************************");
+            WriteLine("You picked: Bohemian Rhapsody: Misheard Lyrics Edition (31 words) \n You can skip questions, but then where's the fun in that? \n *****************************************************************");
             WriteLine();
 
             WriteLine($"Question 1 of 31 - Pick a noun ({Definitions.noun})");
-            lifeNoun = ReadLine();
+            string lifeString = ReadLine();
+            if (!string.IsNullOrEmpty(lifeString))
+            {
+                lifeNoun = lifeString;
+            }
 
             WriteLine("2 of 31 - Pick a natural disaster eg. flood");
-            naturalDisaster = ReadLine();
+            string naturalString = ReadLine();
+            if (!string.IsNullOrEmpty(naturalString))
+            {
+                naturalDisaster = naturalString;
+            }
 
             WriteLine("3 of 31 - Pick a cartoon character");
-            cartoonCharacter = ReadLine();
+            string cartoonString = ReadLine();
+            if (!string.IsNullOrEmpty(cartoonString))
+            {
+                cartoonCharacter = cartoonString;
+            }
 
             WriteLine($"4 of 31 - Pick a verb in present tense ({Definitions.verb})");
-            runVerb = ReadLine();
+            string runString = ReadLine();
+            if (!string.IsNullOrEmpty(runString))
+            {
+                runVerb = runString;
+            }
 
             WriteLine($"5 of 31 - Pick a noun ({Definitions.noun})");
-            boyNoun = ReadLine();
+            string boyString = ReadLine();
+            if (!string.IsNullOrEmpty(boyString))
+            {
+                boyNoun = boyString;
+            }
 
             WriteLine($"6 of 31 - Pick a verb in present tense({Definitions.verb})");
-            blowsVerb = ReadLine();
+            string blowString = ReadLine();
+            if (!string.IsNullOrEmpty(blowString))
+            {
+                blowsVerb = blowString;
+            }
 
             WriteLine("7 of 31 - Pick a person's name");
-            personName = ReadLine();
+            string personNameString = ReadLine();
+            if (!string.IsNullOrEmpty(personNameString))
+            {
+                personName = personNameString;
+            }
 
             WriteLine($"8 of 31 - Pick a noun ({Definitions.noun})");
-            manNoun = ReadLine();
+            string manString = ReadLine();
+            if (!string.IsNullOrEmpty(manString))
+            {
+                manNoun = manString;
+            }
 
             WriteLine("9 of 31 - Pick a part of the body");
-            headBodyPart = ReadLine();
+            string headString = ReadLine();
+            if (!string.IsNullOrEmpty(headString))
+            {
+                headBodyPart = headString;
+            }
 
             WriteLine($"10 of 31 - Pick an adjective ({Definitions.adjective})");
-            deadWord = ReadLine();
+            string deadString = ReadLine();
+            if (!string.IsNullOrEmpty(deadString))
+            {
+                deadWord = deadString;
+            }
 
             WriteLine($"11 of 31 - Pick a past tense verb ({Definitions.verb})");
-            thrownVerb = ReadLine();
+            string thrownVerbString = ReadLine();
+            if (!string.IsNullOrEmpty(thrownVerbString))
+            {
+                thrownVerb = thrownVerbString;
+            }
 
             WriteLine("12 of 31 - Pick a point in time or a date");
-            tomorrowDate = ReadLine();
+            string tomorrowString = ReadLine();
+            if (!string.IsNullOrEmpty(tomorrowString))
+            {
+                tomorrowDate = tomorrowString;
+            }
 
             WriteLine("13 of 31 - Pick an outdated saying, eg. 'Keep on Truckin''");
-            carryOnSaying = ReadLine();
+            string carryOnSayingString = ReadLine();
+            if (!string.IsNullOrEmpty(carryOnSayingString))
+            {
+                carryOnSaying = carryOnSayingString;
+            }
 
             WriteLine("14 of 31 - Pick a mode of transport");
-            timeModeTransport = ReadLine();
+            string timeString = ReadLine();
+            if (!string.IsNullOrEmpty(timeString))
+            {
+                timeModeTransport = timeString;
+            }
 
             WriteLine("15 of 31 - Pick an emotion eg. sadness");
-            shiversPluralNoun = ReadLine();
+            string shiversString = ReadLine();
+            if (!string.IsNullOrEmpty(shiversString))
+            {
+                shiversPluralNoun = shiversString;
+            }
 
             WriteLine("16 of 31 - Pick a verb ending in -ing eg. dancing");
-            achingVerb = ReadLine();
+            string achingString = ReadLine();
+            if (!string.IsNullOrEmpty(achingString))
+            {
+                achingVerb = achingString;
+            }
 
             WriteLine("17 of 31 - Pick a videogame boss name eg. Wario");
+            string var = ReadLine();
+            if (!string.IsNullOrEmpty(var))
+            {
+
+            }
             truthBoss = ReadLine();
 
             WriteLine($"18 of 31 - Pick a present tense verb ({Definitions.verb})");
-            dieVerb = ReadLine();
+            string dieString = ReadLine();
+            if (!string.IsNullOrEmpty(dieString))
+            {
+                dieVerb = dieString;
+            }
 
             WriteLine($"19 of 31 - Pick a singular noun ({Definitions.noun})");
-            silhouettoNoun = ReadLine();
+            string silhouettoString = ReadLine();
+            if (!string.IsNullOrEmpty(silhouettoString))
+            {
+                silhouettoNoun = silhouettoString;
+            }
 
             WriteLine("20 of 31 - Pick a famous gangster name");
-            scaramoucheFamousGangster = ReadLine();
+            string scaramoucheString = ReadLine();
+            if (!string.IsNullOrEmpty(scaramoucheString))
+            {
+                scaramoucheFamousGangster = scaramoucheString;
+            }
 
             WriteLine("21 of 31 - Pick a style of dance");
-            fandangoDanceMove = ReadLine();
+            string fandangoString = ReadLine();
+            if (!string.IsNullOrEmpty(fandangoString))
+            {
+                fandangoDanceMove = fandangoString;
+            }
 
             WriteLine($"22 of 31 - Pick an adjective ({Definitions.adjective})");
-            frighteningAdjective = ReadLine();
+            string frighteningString = ReadLine();
+            if (!string.IsNullOrEmpty(frighteningString))
+            {
+                frighteningAdjective = frighteningString;
+            }
 
             WriteLine("23 of 31 - Pick a famous person");
-            galileoFamousPerson = ReadLine();
+            string galileoString = ReadLine();
+            if (!string.IsNullOrEmpty(galileoString))
+            {
+                galileoFamousPerson = galileoString;
+            }
 
             WriteLine("24 of 31 - Pick an exclamation eg. 'Holy Moly!' or 'Needs more cowbell!'");
-            magnificoExcitedRemark = ReadLine();
+            string magnificoString = ReadLine();
+            if (!string.IsNullOrEmpty(magnificoString))
+            {
+                magnificoExcitedRemark = magnificoString;
+            }
 
             WriteLine("25 of 31 - Name one of your prized possessions");
-            lifePossession = ReadLine();
+            string lifePossessionString = ReadLine();
+            if (!string.IsNullOrEmpty(lifePossessionString))
+            {
+                lifePossession = lifePossessionString;
+            }
 
             WriteLine("26 of 31 - Pick a famous British person");
-            bismillahFamousBritishPerson = ReadLine();
+            string bismillahString = ReadLine();
+            if (!string.IsNullOrEmpty(bismillahString))
+            {
+                bismillahFamousBritishPerson = bismillahString;
+            }
 
             WriteLine("27 of 31 - Choose an animal sound");
-            noAnimalSound = ReadLine();
+            string noAnimalSoundString = ReadLine();
+            if (!string.IsNullOrEmpty(noAnimalSoundString))
+            {
+                noAnimalSound = noAnimalSoundString;
+            }
 
             WriteLine("28 of 31 - Choose a pet's name");
+            string beezlebubString = ReadLine();
+            if (!string.IsNullOrEmpty(beezlebubString))
+            {
+                beezlebubPetName = beezlebubString;
+            }
             beezlebubPetName = ReadLine();
 
             WriteLine($"29 of 31 - Pick a verb in present tense ({Definitions.verb})");
-            stoneVerb = ReadLine();
+            string stoneVerbString = ReadLine();
+            if (!string.IsNullOrEmpty(stoneVerbString))
+            {
+                stoneVerb = stoneVerbString;
+            }
 
             WriteLine("30 of 31 - Pick a body part");
-            eyeBodyPart = ReadLine();
+            string eyeString = ReadLine();
+            if (!string.IsNullOrEmpty(eyeString))
+            {
+                eyeBodyPart = eyeString;
+            }
 
             WriteLine($"31 of 31 - Almost done! Pick a verb ({Definitions.verb})");
-            loveVerb = ReadLine();
+            string loveString = ReadLine();
+            if (!string.IsNullOrEmpty(loveString))
+            {
+                loveVerb = loveString;
+            }
 
             WriteLine("Last one! Pick something that is sentimental to you");
-            nothingNoun = ReadLine();
+            string nothingString = ReadLine();
+            if (!string.IsNullOrEmpty(nothingString))
+            {
+                nothingNoun = nothingString;
+            }
 
             WriteLine(
                     $"Is this the real {lifeNoun}? \n" +
