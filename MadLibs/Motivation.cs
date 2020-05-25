@@ -43,7 +43,7 @@ namespace MadLibs
 
         public void PlayMotivation()
         {
-            WriteLine("You picked 'Not just any motivational YouTube Ad (Challenge Accepted Mode - 30 Word Choices)'");
+            WriteLine("You picked 'Not just any motivational YouTube Ad (Challenge Accepted Mode - 30 Word Choices)' \n You can skip words by pressing enter, but you can't skip numbers.");
 
             WriteLine("Question 1 of 30 - Pick a washed up celebrity");
             string celebString = ReadLine();
@@ -135,7 +135,7 @@ namespace MadLibs
             WriteLine($"Question 14 of 30 - Pick a country");
             string countryString = ReadLine();
             if (!string.IsNullOrEmpty(countryString))
-                country = ReadLine();
+                country = countryString;
 
             WriteLine("Question 15 of 30 - Pick a number");
             string response4 = ReadLine();
