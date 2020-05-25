@@ -43,7 +43,8 @@ namespace MadLibs
 
         public void PlayMotivation()
         {
-            WriteLine("You picked 'Not just any motivational YouTube Ad (Challenge Accepted Mode - 30 Word Choices)' \n You can skip words by pressing enter, but you can't skip numbers.");
+            WriteLine("You picked: 'Not just any motivational YouTube Ad (Challenge Accepted Mode - 30 Word Choices)' \n You can skip questions by pressing enter, but where's the fun in that? \n" +
+                "************************************************************************");
 
             WriteLine("Question 1 of 30 - Pick a washed up celebrity");
             string celebString = ReadLine();
@@ -64,7 +65,6 @@ namespace MadLibs
                 }
                 number = value1;
             }
-           
 
             WriteLine("Question 3 of 30 - Pick a famous talk show host");
             string hostString = ReadLine();
@@ -84,12 +84,15 @@ namespace MadLibs
             WriteLine("Question 5 of 30 - Pick a number");
             string response2 = ReadLine();
             int value2;
-            while (!int.TryParse(response2, out value2))
+            if (!string.IsNullOrEmpty(response2))
             {
-                WriteLine("Hmmm that doesn't look like a number to me! Try again.");
-                response2 = ReadLine();
-            }
-            number2 = value2;
+                while (!int.TryParse(response2, out value2))
+                {
+                    WriteLine("Hmmm that doesn't look like a number to me! Try again.");
+                    response2 = ReadLine();
+                }
+                number2 = value2;
+            }   
 
             WriteLine("Question 6 of 30 - Pick a car brand");
             string carBrandString = ReadLine();
@@ -124,12 +127,15 @@ namespace MadLibs
             WriteLine("Question 12 of 30 - Pick a number");
             string response3 = ReadLine();
             int value3;
-            while (!int.TryParse(response3, out value3))
+            if (!string.IsNullOrEmpty(response3))
             {
-                WriteLine("Hmm that number looks strange, almost looks like it's NOT a number. Try again.");
-                response3 = ReadLine();
-            }
-            number3 = value3;
+                while (!int.TryParse(response3, out value3))
+                {
+                    WriteLine("Hmm that number looks strange, almost looks like it's NOT a number. Try again.");
+                    response3 = ReadLine();
+                }
+                number3 = value3;
+            }   
 
             WriteLine($"Question 13 of 30 - Pick another plural noun ({Definitions.noun})");
             string pluralNoun2String = ReadLine();
@@ -144,12 +150,15 @@ namespace MadLibs
             WriteLine("Question 15 of 30 - Pick a number");
             string response4 = ReadLine();
             int value4;
-            while (!int.TryParse(response4, out value4))
+            if (!string.IsNullOrEmpty(response4))
             {
-                WriteLine("Numbers only please! Come on, we talked about this. This time, with a number.");
-                response4 = ReadLine();
-            }
-            percentage = value4;
+                while (!int.TryParse(response4, out value4))
+                {
+                    WriteLine("Numbers only please! Come on, we talked about this. This time, with a number.");
+                    response4 = ReadLine();
+                }
+                percentage = value4;
+            }  
 
             WriteLine("Question 16 of 30 - Pick a website");
             string websiteString = ReadLine();
@@ -171,12 +180,15 @@ namespace MadLibs
             WriteLine("Question 19 of 30 - Pick a number");
             string response5 = ReadLine();
             int value5;
-            while (!int.TryParse(response5, out value5))
+            if (!string.IsNullOrEmpty(response5))
             {
-                WriteLine("That number looks strange, almost like it's.. not a number. Give it another shot.");
-                response5 = ReadLine();
-            }
-            amount = value5;
+                while (!int.TryParse(response5, out value5))
+                {
+                    WriteLine("That number looks strange, almost like it's.. not a number. Give it another shot.");
+                    response5 = ReadLine();
+                }
+                amount = value5;
+            }   
 
             WriteLine("Question 20 of 30 - Pick a city");
             string cityString = ReadLine();
@@ -191,13 +203,15 @@ namespace MadLibs
             WriteLine("Question 22 of 30 - Pick a number");
             string response6 = ReadLine();
             int value6;
-            while (!int.TryParse(response6, out value6))
+            if (!string.IsNullOrEmpty(response6))
             {
-                WriteLine("Hmmm that doesn't look like a number to me! Try again.");
-                response6 = ReadLine();
+                while (!int.TryParse(response6, out value6))
+                {
+                    WriteLine("Hmmm that doesn't look like a number to me! Try again.");
+                    response6 = ReadLine();
+                }
+                percentage2 = value6;
             }
-            percentage2 = value6;
-
 
             WriteLine("Question 23 of 30 - Pick a verb ending in -ing eg. 'running'");
             string verbINGString = ReadLine();
@@ -232,22 +246,28 @@ namespace MadLibs
             WriteLine("Question 30 of 30 - Almost there! Pick a number");
             string response7 = ReadLine();
             int value7;
-            while (!int.TryParse(response7, out value7))
+            if (!string.IsNullOrEmpty(response7))
             {
-                WriteLine("Hmmm that doesn't look like a number to me! Try again.");
-                response7 = ReadLine();
+                while (!int.TryParse(response7, out value7))
+                {
+                    WriteLine("Hmmm that doesn't look like a number to me! Try again.");
+                    response7 = ReadLine();
+                }
+                number4 = value7;
             }
-            number4 = value7;
-
+            
             WriteLine("Question 30 of Your patience has paid off. This is the last one: Pick a number");
             string response8 = ReadLine();
             int value8;
-            while (!int.TryParse(response8, out value8))
+            if (!string.IsNullOrEmpty(response8))
             {
-                WriteLine("Hmmm that doesn't look like a number to me! Try again.");
-                response8 = ReadLine();
-            }
-            number5 = value8;
+                while (!int.TryParse(response8, out value8))
+                {
+                    WriteLine("Hmmm that doesn't look like a number to me! Try again.");
+                    response8 = ReadLine();
+                }
+                number5 = value8;
+            }    
 
             WriteLine("Here's the story you created: entitled 'Not just any motivational YouTube Ad'");
             WriteLine($"Hi, my name is {celeb} and I'm gonna teach you about how I make ${number} while I'm sleeping. Pay attention, because I'm going to share with you the stuff not even {talkhost} will tell you about finance. \n " +
