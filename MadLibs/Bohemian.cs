@@ -159,12 +159,11 @@ namespace MadLibs
             }
 
             WriteLine("17 of 31 - Pick a videogame boss name eg. Wario");
-            string var = ReadLine();
-            if (!string.IsNullOrEmpty(var))
+            string truthString = ReadLine();
+            if (!string.IsNullOrEmpty(truthString))
             {
-
+                truthBoss = truthString;
             }
-            truthBoss = ReadLine();
 
             WriteLine($"18 of 31 - Pick a present tense verb ({Definitions.verb})");
             string dieString = ReadLine();
@@ -295,7 +294,11 @@ namespace MadLibs
                     "Didn't mean to make you cry,\n" +
                     $"If I'm not back again this time {tomorrowDate},\n" +
                     $"{carryOnSaying}, {carryOnSaying} as if nothing really matters.\n" +
-                    "  \n" +
+                    "  \n");
+
+            //WriteLine("Press any key to continue..");
+
+            WriteLine(
                     $"Too late, my {timeModeTransport} has come,\n" +
                     $"Sends {shiversPluralNoun} down my spine,\n" +
                     $"Body's {achingVerb} all the time.\n" +
